@@ -15,7 +15,7 @@ export function Photos() {
   const [open, setOpen] = useState<number | null>(null);
   const hasPhotos = ugcPhotos.length > 0;
 
-  const thumbGrid = "grid grid-cols-5 gap-2 sm:gap-3 lg:grid-cols-10";
+  const thumbGrid = "grid grid-cols-3 gap-2 sm:gap-3 lg:grid-cols-9";
 
   return (
     <Section id="fotos-ugc" tone="surface">

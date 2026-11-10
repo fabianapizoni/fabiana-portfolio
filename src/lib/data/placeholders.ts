@@ -115,7 +115,6 @@ export const ugcPhotos: UgcPhoto[] = [
   { src: "/images/ugc/downy-calm.jpg", alt: "Perfume para roupas Downy Calm", brand: "Downy" },
   { src: "/images/ugc/joico-k-pak.jpg", alt: "Condicionador Joico K-PAK", brand: "Joico" },
   { src: "/images/ugc/zevya-daily-bloom.jpg", alt: "Drink funcional Zevya Daily Bloom", brand: "Zevya" },
-  { src: "/images/ugc/finisherfresh-floral-1.jpg", alt: "Facilitador de passar roupas Finisherfresh Floral", brand: "Finisherfresh" },
   { src: "/images/ugc/umbrella-protetor-solar.jpg", alt: "Protetor solar Umbrella FPS 50", brand: "Umbrella" },
   { src: "/images/ugc/finisherfresh-floral-2.jpg", alt: "Facilitador de passar roupas Finisherfresh Floral", brand: "Finisherfresh" },
   { src: "/images/ugc/elf-halo-glow.jpg", alt: "Iluminador e.l.f. Halo Glow Liquid Filter", brand: "e.l.f." },
@@ -123,7 +122,7 @@ export const ugcPhotos: UgcPhoto[] = [
 ];
 
 /** Quantos quadradinhos de placeholder mostrar enquanto não houver fotos. */
-export const ugcPhotoPlaceholderCount = 10;
+export const ugcPhotoPlaceholderCount = 9;
 
 // ---------------------------------------------------------------------------
 // Prints de resultado (vazio = mostra caixas de placeholder)
