@@ -82,8 +82,8 @@ const pt = {
     quote: "[Sua frase de compromisso com as marcas parceiras.]",
     chips: ["UGC Creator", "Influenciadora", "[Identidade 3]", "[Identidade 4]"],
     stats: {
-      age: "idade",
-      base: "base",
+      age: "anos",
+      base: "Rondônia, Brasil",
     },
     photoPlaceholder: "[Foto Sobre mim]",
   },
@@ -301,7 +301,7 @@ const en: Translations = {
     chips: ["UGC Creator", "Influencer", "[Identity 3]", "[Identity 4]"],
     stats: {
       age: "years old",
-      base: "based in",
+      base: "Rondônia, Brazil",
     },
     photoPlaceholder: "[About me photo]",
   },

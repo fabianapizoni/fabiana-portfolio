@@ -50,8 +50,8 @@ export const heroStats = {
 };
 
 export const aboutStats = {
-  age: "[00]",
-  base: "[Cidade]",
+  age: "41",
+  base: "Cacoal, RO",
 };
 
 // ---------------------------------------------------------------------------
