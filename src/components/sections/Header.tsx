@@ -13,7 +13,6 @@ export function Header() {
   const links = [
     { href: "#sobre", label: t.nav.about },
     { href: "#portfolio", label: t.nav.portfolio },
-    { href: "#trabalhar-comigo", label: t.nav.work },
     { href: "#feedbacks", label: t.nav.feedbacks },
     { href: "#contato", label: t.nav.contact },
   ];

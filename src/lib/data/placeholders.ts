@@ -58,40 +58,6 @@ export const aboutStats = {
   followers: "0",
 };
 
-export type InfluencerMetrics = {
-  platform: "Instagram" | "TikTok";
-  handle: string;
-  url: string;
-  views: string;
-  followers: string;
-  gender: string;
-  age: string;
-  location: string;
-};
-
-export const influencerMetrics: InfluencerMetrics[] = [
-  {
-    platform: "Instagram",
-    handle: "[@seuinstagram]",
-    url: "https://instagram.com/",
-    views: "0",
-    followers: "0",
-    gender: "[0% F · 0% M]",
-    age: "[00–00]",
-    location: "[Cidade, UF]",
-  },
-  {
-    platform: "TikTok",
-    handle: "[@seutiktok]",
-    url: "https://tiktok.com/",
-    views: "0",
-    followers: "0",
-    gender: "[0% F · 0% M]",
-    age: "[00–00]",
-    location: "[Cidade, UF]",
-  },
-];
-
 // ---------------------------------------------------------------------------
 // Marcas atendidas (vazio = seção escondida)
 // ---------------------------------------------------------------------------

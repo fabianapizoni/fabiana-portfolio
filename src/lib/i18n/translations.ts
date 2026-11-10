@@ -27,7 +27,6 @@ const pt = {
   nav: {
     about: "Sobre",
     portfolio: "Portfólio",
-    work: "Trabalhar comigo",
     feedbacks: "Feedbacks",
     contact: "Contato",
     cta: "Solicitar proposta",
@@ -116,15 +115,6 @@ const pt = {
     intro: "[Resumo do seu perfil: sobre o que você fala e quem te acompanha.]",
     topicsTitle: "Sobre o que eu falo",
     topics: ["[Tópico 1]", "[Tópico 2]", "[Tópico 3]", "[Tópico 4]"],
-    metricsTitle: "Métricas",
-    metrics: {
-      views: "Visualizações (30 dias)",
-      followers: "Seguidores",
-      gender: "Gênero do público",
-      age: "Faixa etária",
-      location: "Localização",
-    },
-    updatedAt: "[Atualizado em mês/ano]",
   },
 
   ugc: {
@@ -138,42 +128,6 @@ const pt = {
       { title: "Unboxing", text: "[Como você mostra a primeira impressão do produto.]" },
       { title: "Antes e depois", text: "[Como você mostra o resultado do produto.]" },
       { title: "Depoimentos", text: "[Como você grava depoimentos para anúncios.]" },
-    ],
-  },
-
-  work: {
-    eyebrow: "Formas de trabalhar comigo",
-    title: "[Título da seção de serviços]",
-    intro: "[Breve introdução sobre os formatos de parceria.]",
-    cta: "Quero este",
-    prev: "Anterior",
-    next: "Próximo",
-    services: [
-      {
-        title: "[Serviço 1: ex. Vídeo UGC]",
-        description: "[Descreva o que está incluso neste serviço.]",
-        message: "Olá, Fabiana! Tenho interesse no serviço [Serviço 1]. Pode me enviar mais detalhes?",
-      },
-      {
-        title: "[Serviço 2: ex. Publi no Instagram]",
-        description: "[Descreva o que está incluso neste serviço.]",
-        message: "Olá, Fabiana! Tenho interesse no serviço [Serviço 2]. Pode me enviar mais detalhes?",
-      },
-      {
-        title: "[Serviço 3: ex. Publi no TikTok]",
-        description: "[Descreva o que está incluso neste serviço.]",
-        message: "Olá, Fabiana! Tenho interesse no serviço [Serviço 3]. Pode me enviar mais detalhes?",
-      },
-      {
-        title: "[Serviço 4: ex. Pacote mensal]",
-        description: "[Descreva o que está incluso neste serviço.]",
-        message: "Olá, Fabiana! Tenho interesse no serviço [Serviço 4]. Pode me enviar mais detalhes?",
-      },
-      {
-        title: "[Serviço 5: ex. Fotos de produto]",
-        description: "[Descreva o que está incluso neste serviço.]",
-        message: "Olá, Fabiana! Tenho interesse no serviço [Serviço 5]. Pode me enviar mais detalhes?",
-      },
     ],
   },
 
@@ -291,7 +245,6 @@ const en: Translations = {
   nav: {
     about: "About",
     portfolio: "Portfolio",
-    work: "Work with me",
     feedbacks: "Feedback",
     contact: "Contact",
     cta: "Request a proposal",
@@ -372,15 +325,6 @@ const en: Translations = {
     intro: "[Profile summary: what you talk about and who follows you.]",
     topicsTitle: "What I talk about",
     topics: ["[Topic 1]", "[Topic 2]", "[Topic 3]", "[Topic 4]"],
-    metricsTitle: "Metrics",
-    metrics: {
-      views: "Views (30 days)",
-      followers: "Followers",
-      gender: "Audience gender",
-      age: "Age range",
-      location: "Location",
-    },
-    updatedAt: "[Updated month/year]",
   },
 
   ugc: {
@@ -394,42 +338,6 @@ const en: Translations = {
       { title: "Unboxing", text: "[How you show your first impression of the product.]" },
       { title: "Before & after", text: "[How you show the product's results.]" },
       { title: "Testimonials", text: "[How you record testimonials for ads.]" },
-    ],
-  },
-
-  work: {
-    eyebrow: "Ways to work with me",
-    title: "[Services section title]",
-    intro: "[Short introduction to the partnership formats.]",
-    cta: "I want this",
-    prev: "Previous",
-    next: "Next",
-    services: [
-      {
-        title: "[Service 1: e.g. UGC video]",
-        description: "[Describe what's included in this service.]",
-        message: "Hi Fabiana! I'm interested in [Service 1]. Could you send me more details?",
-      },
-      {
-        title: "[Service 2: e.g. Instagram sponsored post]",
-        description: "[Describe what's included in this service.]",
-        message: "Hi Fabiana! I'm interested in [Service 2]. Could you send me more details?",
-      },
-      {
-        title: "[Service 3: e.g. TikTok sponsored post]",
-        description: "[Describe what's included in this service.]",
-        message: "Hi Fabiana! I'm interested in [Service 3]. Could you send me more details?",
-      },
-      {
-        title: "[Service 4: e.g. Monthly package]",
-        description: "[Describe what's included in this service.]",
-        message: "Hi Fabiana! I'm interested in [Service 4]. Could you send me more details?",
-      },
-      {
-        title: "[Service 5: e.g. Product photos]",
-        description: "[Describe what's included in this service.]",
-        message: "Hi Fabiana! I'm interested in [Service 5]. Could you send me more details?",
-      },
     ],
   },
 

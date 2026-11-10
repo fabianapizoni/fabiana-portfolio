@@ -8,7 +8,6 @@ import { About } from "@/components/sections/About";
 import { Studio } from "@/components/sections/Studio";
 import { Influencer } from "@/components/sections/Influencer";
 import { UgcCreator } from "@/components/sections/UgcCreator";
-import { WorkWithMe } from "@/components/sections/WorkWithMe";
 import { Portfolio } from "@/components/sections/Portfolio";
 import { Photos } from "@/components/sections/Photos";
 import { Feedbacks } from "@/components/sections/Feedbacks";
@@ -35,7 +34,6 @@ export default function Home() {
         <Studio />
         <Influencer />
         <UgcCreator />
-        <WorkWithMe />
         <Portfolio />
         <Photos />
         <Feedbacks />
