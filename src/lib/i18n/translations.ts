@@ -160,8 +160,13 @@ const pt = {
   },
 
   photos: {
-    eyebrow: "Fotos",
-    title: "[Bastidores e entregas]",
+    eyebrow: "Fotos UGC",
+    title: "[Fotos usando os produtos]",
+    intro: "[Breve texto sobre suas fotos de produto para marcas.]",
+    placeholder: "[Foto UGC]",
+    close: "Fechar foto",
+    prev: "Foto anterior",
+    next: "Próxima foto",
   },
 
   feedbacks: {
@@ -370,8 +375,13 @@ const en: Translations = {
   },
 
   photos: {
-    eyebrow: "Photos",
-    title: "[Behind the scenes & deliverables]",
+    eyebrow: "UGC photos",
+    title: "[Photos using the products]",
+    intro: "[Short text about your product photos for brands.]",
+    placeholder: "[UGC photo]",
+    close: "Close photo",
+    prev: "Previous photo",
+    next: "Next photo",
   },
 
   feedbacks: {

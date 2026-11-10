@@ -6,8 +6,7 @@
  *    (ex: "/images/hero.jpg"). `null` mostra uma caixa de placeholder.
  *  - Logos de marca: adicione itens em `brandLogos`. A seção "Marcas
  *    atendidas" só aparece quando houver pelo menos uma.
- *  - Fotos de bastidor: adicione itens em `gallery`. A seção "Fotos" só
- *    aparece quando houver pelo menos uma.
+ *  - Fotos UGC (usando produtos): adicione itens em `ugcPhotos`.
  *  - Vídeos: adicione itens em `videos` (ID de vídeos "não listados" do
  *    YouTube). Enquanto a lista estiver vazia, o site mostra `sampleVideos`.
  */
@@ -105,12 +104,18 @@ export const sampleVideos: Video[] = (Object.keys(nichesByCategory) as VideoCate
 );
 
 // ---------------------------------------------------------------------------
-// Fotos de bastidor / entregas (vazio = seção escondida)
+// Fotos UGC (usando os produtos). Aparecem como miniaturas abaixo do portfólio.
+// Coloque os arquivos em /public/images/ugc/ e liste aqui.
+// Enquanto estiver vazio, mostra quadradinhos de placeholder.
 // ---------------------------------------------------------------------------
 
-export type GalleryPhoto = { src: string; alt: string; size?: "tall" | "wide" | "normal" };
+export type UgcPhoto = { src: string; alt: string; brand?: string };
 
-export const gallery: GalleryPhoto[] = [];
+/** Ex: { src: "/images/ugc/serum-marca-x.jpg", alt: "Sérum da Marca X", brand: "Marca X" } */
+export const ugcPhotos: UgcPhoto[] = [];
+
+/** Quantos quadradinhos de placeholder mostrar enquanto não houver fotos. */
+export const ugcPhotoPlaceholderCount = 16;
 
 // ---------------------------------------------------------------------------
 // Prints de resultado (vazio = mostra caixas de placeholder)
