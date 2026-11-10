@@ -197,9 +197,15 @@ const pt = {
 
   whyUgc: {
     eyebrow: "Por que investir em UGC",
-    title: "[Título sobre os benefícios do UGC]",
-    paragraph: "[Parágrafo explicando por que conteúdo gerado por creators converte mais.]",
-    reasons: ["[Motivo 1]", "[Motivo 2]", "[Motivo 3]", "[Motivo 4]"],
+    title: "Por que apostar em UGC agora",
+    paragraph:
+      "UGC (User Generated Content) é o conteúdo feito por pessoas de verdade: vídeos, fotos e avaliações que mostram o produto no dia a dia, em vez do anúncio tradicional. Por ser espontâneo e criativo, ele aproxima a marca do público e faz as pessoas confiarem mais e interagirem mais.",
+    reasons: [
+      "Conteúdo real, que passa credibilidade",
+      "Pode vender bem mais do que a publicidade tradicional",
+      "Ajuda a marca a aparecer melhor nas buscas",
+      "Produção de conteúdo sem precisar montar uma equipe interna",
+    ],
   },
 
   contact: {
@@ -412,9 +418,15 @@ const en: Translations = {
 
   whyUgc: {
     eyebrow: "Why invest in UGC",
-    title: "[Title about the benefits of UGC]",
-    paragraph: "[Paragraph explaining why creator-made content converts better.]",
-    reasons: ["[Reason 1]", "[Reason 2]", "[Reason 3]", "[Reason 4]"],
+    title: "Why bet on UGC now",
+    paragraph:
+      "UGC (User Generated Content) is content made by real people: videos, photos and reviews that show the product in everyday life, instead of a traditional ad. Because it feels natural and creative, it brings the brand closer to its audience and builds more trust and engagement.",
+    reasons: [
+      "Real content that builds credibility",
+      "Can sell far more than traditional advertising",
+      "Helps the brand show up better in search",
+      "Content production without building an in-house team",
+    ],
   },
 
   contact: {
