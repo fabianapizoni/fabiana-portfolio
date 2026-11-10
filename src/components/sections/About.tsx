@@ -10,7 +10,6 @@ export function About() {
   const stats = [
     { value: aboutStats.age, label: t.about.stats.age },
     { value: aboutStats.base, label: t.about.stats.base },
-    { value: aboutStats.experience, label: t.about.stats.experience },
     { value: aboutStats.followers, label: t.about.stats.followers },
   ];
 
@@ -44,7 +43,7 @@ export function About() {
             ))}
           </div>
 
-          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+          <div className="mt-10 grid grid-cols-3 gap-3 sm:gap-4">
             {stats.map((s) => (
               <div key={s.label} className="rounded-2xl bg-bg p-5">
                 <p className="font-display text-2xl">{s.value}</p>

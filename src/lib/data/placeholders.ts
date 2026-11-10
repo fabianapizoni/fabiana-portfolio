@@ -53,7 +53,6 @@ export const heroStats = {
 export const aboutStats = {
   age: "[00]",
   base: "[Cidade]",
-  experience: "[0 anos]",
   followers: "0",
 };
 

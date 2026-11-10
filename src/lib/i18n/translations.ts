@@ -85,7 +85,6 @@ const pt = {
     stats: {
       age: "idade",
       base: "base",
-      experience: "de experiência",
       followers: "seguidores",
     },
     photoPlaceholder: "[Foto Sobre mim]",
@@ -306,7 +305,6 @@ const en: Translations = {
     stats: {
       age: "years old",
       base: "based in",
-      experience: "of experience",
       followers: "followers",
     },
     photoPlaceholder: "[About me photo]",
