@@ -109,10 +109,21 @@ export const sampleVideos: Video[] = (Object.keys(nichesByCategory) as VideoCate
 export type UgcPhoto = { src: string; alt: string; brand?: string };
 
 /** Ex: { src: "/images/ugc/serum-marca-x.jpg", alt: "Sérum da Marca X", brand: "Marca X" } */
-export const ugcPhotos: UgcPhoto[] = [];
+export const ugcPhotos: UgcPhoto[] = [
+  { src: "/images/ugc/shiseido-protetor-stick.jpg", alt: "Protetor solar em bastão Shiseido", brand: "Shiseido" },
+  { src: "/images/ugc/medicube-cleanser.jpg", alt: "Espuma de limpeza Medicube PDRN", brand: "Medicube" },
+  { src: "/images/ugc/downy-calm.jpg", alt: "Perfume para roupas Downy Calm", brand: "Downy" },
+  { src: "/images/ugc/joico-k-pak.jpg", alt: "Condicionador Joico K-PAK", brand: "Joico" },
+  { src: "/images/ugc/zevya-daily-bloom.jpg", alt: "Drink funcional Zevya Daily Bloom", brand: "Zevya" },
+  { src: "/images/ugc/finisherfresh-floral-1.jpg", alt: "Facilitador de passar roupas Finisherfresh Floral", brand: "Finisherfresh" },
+  { src: "/images/ugc/umbrella-protetor-solar.jpg", alt: "Protetor solar Umbrella FPS 50", brand: "Umbrella" },
+  { src: "/images/ugc/finisherfresh-floral-2.jpg", alt: "Facilitador de passar roupas Finisherfresh Floral", brand: "Finisherfresh" },
+  { src: "/images/ugc/elf-halo-glow.jpg", alt: "Iluminador e.l.f. Halo Glow Liquid Filter", brand: "e.l.f." },
+  { src: "/images/ugc/elf-blush.jpg", alt: "Blush e.l.f.", brand: "e.l.f." },
+];
 
 /** Quantos quadradinhos de placeholder mostrar enquanto não houver fotos. */
-export const ugcPhotoPlaceholderCount = 16;
+export const ugcPhotoPlaceholderCount = 10;
 
 // ---------------------------------------------------------------------------
 // Prints de resultado (vazio = mostra caixas de placeholder)

@@ -15,7 +15,7 @@ export function Photos() {
   const [open, setOpen] = useState<number | null>(null);
   const hasPhotos = ugcPhotos.length > 0;
 
-  const thumbGrid = "grid grid-cols-4 gap-2 sm:gap-3 md:grid-cols-8";
+  const thumbGrid = "grid grid-cols-5 gap-2 sm:gap-3 lg:grid-cols-10";
 
   return (
     <Section id="fotos-ugc" tone="surface">
@@ -36,7 +36,7 @@ export function Photos() {
                   src={p.src}
                   alt=""
                   loading="lazy"
-                  className="h-full w-full object-cover transition duration-300 group-hover:scale-110"
+                  className="h-full w-full object-cover object-[50%_30%] transition duration-300 group-hover:scale-110"
                 />
               </button>
             </li>
