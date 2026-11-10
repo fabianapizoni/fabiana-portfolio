@@ -19,7 +19,7 @@ export function WorkWithMe() {
               onClick={() => openWhatsApp(s.message)}
               className="group flex h-full min-h-[18rem] w-full flex-col rounded-3xl bg-bg p-7 text-left transition hover:-translate-y-1 hover:shadow-lg"
             >
-              <span className="text-sm font-semibold text-accent">{String(i + 1).padStart(2, "0")}</span>
+              <span className="text-sm font-semibold text-ochre">{String(i + 1).padStart(2, "0")}</span>
               <h3 className="mt-4 font-display text-2xl leading-snug">{s.title}</h3>
               <p className="mt-3 flex-1 leading-relaxed text-muted">{s.description}</p>
               <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold">

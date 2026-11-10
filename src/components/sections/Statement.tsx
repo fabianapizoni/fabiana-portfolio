@@ -9,7 +9,7 @@ export function Statement() {
       <div className="mx-auto max-w-6xl px-4 text-center sm:px-6">
         <p className="font-display text-4xl leading-tight md:text-7xl">
           <span className="block">{t.statement.line1}</span>
-          <span className="block italic text-muted">{t.statement.line2}</span>
+          <span className="block italic text-rust">{t.statement.line2}</span>
         </p>
       </div>
     </section>

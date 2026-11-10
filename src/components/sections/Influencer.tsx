@@ -16,7 +16,7 @@ export function Influencer() {
       <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-muted">{t.influencer.topicsTitle}</p>
       <div className="mb-14 flex flex-wrap gap-2">
         {t.influencer.topics.map((topic) => (
-          <Chip key={topic} className="bg-bg">
+          <Chip key={topic} className="border-sage bg-sage/25">
             {topic}
           </Chip>
         ))}
@@ -33,7 +33,7 @@ export function Influencer() {
           return (
             <article key={p.platform} className="rounded-3xl bg-bg p-6 md:p-8">
               <a href={p.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
-                <span className="grid h-11 w-11 place-items-center rounded-full bg-ink text-bg">
+                <span className="grid h-11 w-11 place-items-center rounded-full bg-accent text-accent-ink">
                   <Icon />
                 </span>
                 <span>

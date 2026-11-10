@@ -14,7 +14,7 @@ export function Studio() {
           <div className="space-y-6">
             {t.studio.items.map((item, i) => (
               <div key={item.title} className="flex gap-5">
-                <span className="font-display text-3xl text-accent">0{i + 1}</span>
+                <span className="font-display text-3xl text-ochre">0{i + 1}</span>
                 <div>
                   <h3 className="text-lg font-semibold">{item.title}</h3>
                   <p className="mt-1 leading-relaxed text-muted">{item.text}</p>
@@ -28,7 +28,7 @@ export function Studio() {
           </p>
           <div className="flex flex-wrap gap-2">
             {t.studio.badges.map((b) => (
-              <Chip key={b} className="bg-surface">
+              <Chip key={b} className="border-olive/40 bg-olive/10 text-olive">
                 {b}
               </Chip>
             ))}

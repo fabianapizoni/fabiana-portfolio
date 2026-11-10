@@ -38,7 +38,7 @@ export function About() {
 
           <div className="mt-10 flex flex-wrap gap-2">
             {t.about.chips.map((c) => (
-              <Chip key={c} className="bg-bg">
+              <Chip key={c} className="border-sage bg-sage/25">
                 {c}
               </Chip>
             ))}

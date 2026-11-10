@@ -16,7 +16,7 @@ npm run build    # gera a pasta /out, que pode ir para qualquer hospedagem está
 |---|---|
 | Todos os textos PT/EN | `src/lib/i18n/translations.ts` |
 | WhatsApp, redes, fotos, números, logos, vídeos, galeria | `src/lib/data/placeholders.ts` |
-| Paleta de cores | variáveis em `src/app/globals.css` |
+| Paleta de cores (outono) | variáveis em `src/app/globals.css` |
 | Fontes | `src/app/layout.tsx` |
 
 - Os textos entre `[colchetes]` são placeholders. Use `**negrito**` na bio do "Sobre mim".

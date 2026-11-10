@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-// Paleta placeholder: as cores vêm de variáveis CSS em src/app/globals.css.
+// Paleta: as cores vêm de variáveis CSS em src/app/globals.css.
 // Para trocar a identidade visual, edite só as variáveis lá.
 const withVar = (name: string) => `rgb(var(--${name}) / <alpha-value>)`;
 
@@ -16,6 +16,11 @@ const config: Config = {
         line: withVar("line"),
         accent: withVar("accent"),
         "accent-ink": withVar("accent-ink"),
+        ochre: withVar("ochre"),
+        gold: withVar("gold"),
+        rust: withVar("rust"),
+        sage: withVar("sage"),
+        olive: withVar("olive"),
       },
       fontFamily: {
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],

@@ -13,7 +13,7 @@ export function Hero() {
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 md:py-20">
         <div className="order-2 md:order-1">
           <span className="inline-flex items-center gap-2 rounded-full border border-line px-3 py-1 text-xs font-medium">
-            <span className="h-2 w-2 rounded-full bg-emerald-500" />
+            <span className="h-2 w-2 rounded-full bg-olive" />
             {t.hero.availability}
           </span>
           <p className="mt-6 text-muted">{t.hero.greeting}</p>

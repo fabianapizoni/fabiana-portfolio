@@ -3,18 +3,23 @@
 @tailwind utilities;
 
 /*
- * Paleta PLACEHOLDER (neutra). Valores em "R G B" para funcionar com a
- * opacidade do Tailwind (ex: bg-accent/20). Troque aqui para aplicar a
- * identidade visual definitiva da Fabiana.
+ * Paleta da Fabiana (outono: vinho, ocre, mostarda, ferrugem, bordô,
+ * sálvia e oliva sobre linho). Valores em "R G B" para funcionar com a
+ * opacidade do Tailwind (ex: bg-accent/20).
  */
 :root {
-  --bg: 250 248 245;        /* fundo principal (off-white) */
-  --surface: 240 236 230;   /* fundo de cards/seções alternadas */
-  --ink: 28 27 26;          /* texto principal */
-  --muted: 120 114 107;     /* texto secundário */
-  --line: 214 207 198;      /* bordas */
-  --accent: 64 64 60;       /* cor de destaque (botões, eyebrows) */
-  --accent-ink: 250 248 245;/* texto sobre a cor de destaque */
+  --bg: 245 241 234;        /* linho claro (fundo principal) */
+  --surface: 234 226 214;   /* linho cru (cards/seções alternadas) */
+  --ink: 58 18 26;          /* bordô profundo (texto principal) */
+  --muted: 112 88 80;       /* marrom acinzentado (texto secundário) */
+  --line: 217 204 188;      /* bordas */
+  --accent: 107 34 50;      /* vinho (botões, destaques) */
+  --accent-ink: 245 241 234;/* texto sobre o vinho */
+  --ochre: 184 105 31;      /* ocre / caramelo */
+  --gold: 210 162 76;       /* mostarda */
+  --rust: 142 59 35;        /* ferrugem */
+  --sage: 163 170 146;      /* sálvia */
+  --olive: 94 107 61;       /* oliva */
 }
 
 html {

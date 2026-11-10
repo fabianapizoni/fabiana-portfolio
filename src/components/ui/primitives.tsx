@@ -28,7 +28,9 @@ export function SectionHeading({
   title,
   intro,
   align = "left",
+  onDark = false,
 }: {
+  onDark?: boolean;
   eyebrow: string;
   title: string;
   intro?: string;
@@ -36,7 +38,7 @@ export function SectionHeading({
 }) {
   return (
     <div className={`mb-10 md:mb-14 ${align === "center" ? "mx-auto max-w-2xl text-center" : "max-w-2xl"}`}>
-      <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-accent">{eyebrow}</p>
+      <p className={`mb-3 text-xs font-semibold uppercase tracking-[0.2em] ${onDark ? "text-gold" : "text-accent"}`}>{eyebrow}</p>
       <h2 className="font-display text-3xl leading-tight md:text-5xl">{title}</h2>
       {intro && <p className="mt-4 text-base leading-relaxed opacity-75 md:text-lg">{intro}</p>}
     </div>
