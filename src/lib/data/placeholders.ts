@@ -47,13 +47,11 @@ export const photos: Record<"hero" | "about" | "studio" | "contact", string | nu
 
 export const heroStats = {
   brands: "0",
-  followers: "0",
 };
 
 export const aboutStats = {
   age: "[00]",
   base: "[Cidade]",
-  followers: "0",
 };
 
 // ---------------------------------------------------------------------------

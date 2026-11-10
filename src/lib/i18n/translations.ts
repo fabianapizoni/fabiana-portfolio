@@ -44,7 +44,6 @@ const pt = {
       "[Sua tagline: em uma frase, o que você entrega para as marcas e por que funciona.]",
     stats: {
       brands: "marcas atendidas",
-      followers: "seguidores",
     },
     ctaPrimary: "Solicitar proposta",
     ctaSecondary: "Ver portfólio",
@@ -85,7 +84,6 @@ const pt = {
     stats: {
       age: "idade",
       base: "base",
-      followers: "seguidores",
     },
     photoPlaceholder: "[Foto Sobre mim]",
   },
@@ -271,7 +269,6 @@ const en: Translations = {
     tagline: "[Your tagline: in one sentence, what you deliver to brands and why it works.]",
     stats: {
       brands: "brands served",
-      followers: "followers",
     },
     ctaPrimary: "Request a proposal",
     ctaSecondary: "View portfolio",
@@ -305,7 +302,6 @@ const en: Translations = {
     stats: {
       age: "years old",
       base: "based in",
-      followers: "followers",
     },
     photoPlaceholder: "[About me photo]",
   },

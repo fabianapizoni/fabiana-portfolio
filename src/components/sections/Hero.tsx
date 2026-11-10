@@ -27,11 +27,6 @@ export function Hero() {
               <dd className="font-display text-4xl">{heroStats.brands}+</dd>
               <dd className="text-sm text-muted">{t.hero.stats.brands}</dd>
             </div>
-            <div>
-              <dt className="sr-only">{t.hero.stats.followers}</dt>
-              <dd className="font-display text-4xl">{heroStats.followers}</dd>
-              <dd className="text-sm text-muted">{t.hero.stats.followers}</dd>
-            </div>
           </dl>
 
           <div className="mt-10 flex flex-wrap gap-3">
