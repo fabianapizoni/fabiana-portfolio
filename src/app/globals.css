@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Paleta PLACEHOLDER (neutra). Valores em "R G B" para funcionar com a
+ * opacidade do Tailwind (ex: bg-accent/20). Troque aqui para aplicar a
+ * identidade visual definitiva da Fabiana.
+ */
+:root {
+  --bg: 250 248 245;        /* fundo principal (off-white) */
+  --surface: 240 236 230;   /* fundo de cards/seções alternadas */
+  --ink: 28 27 26;          /* texto principal */
+  --muted: 120 114 107;     /* texto secundário */
+  --line: 214 207 198;      /* bordas */
+  --accent: 64 64 60;       /* cor de destaque (botões, eyebrows) */
+  --accent-ink: 250 248 245;/* texto sobre a cor de destaque */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(var(--bg));
+  color: rgb(var(--ink));
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Compensa o header fixo ao navegar por âncoras */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+@layer utilities {
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .pause-on-hover:hover > * {
+    animation-play-state: paused;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-marquee,
+  .animate-marquee-slow {
+    animation: none;
+  }
+}

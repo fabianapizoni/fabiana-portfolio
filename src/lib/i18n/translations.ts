@@ -1,0 +1,535 @@
+/**
+ * Conteúdo bilíngue central do site.
+ *
+ * Todos os textos entre [colchetes] são PLACEHOLDERS: substitua pelo
+ * conteúdo real da Fabiana. Use **asteriscos duplos** para negrito nos
+ * campos que aceitam rich text (bio do "Sobre mim", por exemplo).
+ *
+ * O formato do objeto PT define o tipo `Translations`: a versão EN precisa
+ * ter exatamente as mesmas chaves (o TypeScript acusa se faltar algo).
+ */
+
+export type Lang = "pt" | "en";
+
+const pt = {
+  meta: {
+    title: "Fabiana Pizoni · UGC Creator & Influenciadora",
+    description:
+      "[Descrição curta para Google e redes sociais: quem é a Fabiana e o que ela entrega para as marcas.]",
+  },
+
+  banner: {
+    text: "[Agenda aberta para novas parcerias em {mês}]",
+    cta: "Solicitar proposta",
+    close: "Fechar aviso",
+  },
+
+  nav: {
+    about: "Sobre",
+    portfolio: "Portfólio",
+    work: "Trabalhar comigo",
+    feedbacks: "Feedbacks",
+    contact: "Contato",
+    cta: "Solicitar proposta",
+    openMenu: "Abrir menu",
+    closeMenu: "Fechar menu",
+    language: "Idioma",
+  },
+
+  hero: {
+    availability: "[Disponível para novas parcerias]",
+    greeting: "Olá, eu sou",
+    name: "Fabiana Pizoni",
+    role: "UGC Creator & Influenciadora",
+    tagline:
+      "[Sua tagline: em uma frase, o que você entrega para as marcas e por que funciona.]",
+    stats: {
+      brands: "marcas atendidas",
+      followers: "seguidores",
+    },
+    ctaPrimary: "Solicitar proposta",
+    ctaSecondary: "Ver portfólio",
+    photoPlaceholder: "[Foto de capa]",
+  },
+
+  marquee: {
+    tags: [
+      "[Nicho 1]",
+      "[Nicho 2]",
+      "[Nicho 3]",
+      "[Nicho 4]",
+      "[Nicho 5]",
+      "[Nicho 6]",
+    ],
+  },
+
+  statement: {
+    line1: "[Frase de impacto: primeira linha]",
+    line2: "[Frase de impacto: segunda linha]",
+  },
+
+  brands: {
+    eyebrow: "Marcas atendidas",
+    title: "[Marcas que já confiaram no meu trabalho]",
+  },
+
+  about: {
+    eyebrow: "Sobre mim",
+    title: "[Título da seção Sobre mim]",
+    paragraphs: [
+      "[Conte aqui sua cidade e formação. Use **negrito** para destacar os trechos mais importantes.]",
+      "[Conte como começou a criar conteúdo e o que te diferencia. Ex: **o que as marcas ganham** trabalhando com você.]",
+      "[Fale sobre seus valores, seu público e o tipo de parceria que você busca.]",
+    ],
+    quote: "[Sua frase de compromisso com as marcas parceiras.]",
+    chips: ["UGC Creator", "Influenciadora", "[Identidade 3]", "[Identidade 4]"],
+    stats: {
+      age: "idade",
+      base: "base",
+      experience: "de experiência",
+      followers: "seguidores",
+    },
+    photoPlaceholder: "[Foto Sobre mim]",
+  },
+
+  studio: {
+    eyebrow: "Estúdio & qualidade técnica",
+    title: "[Título sobre sua estrutura de produção]",
+    items: [
+      {
+        title: "Equipamento",
+        text: "[Descreva seu equipamento: câmera, luz, áudio e como isso garante qualidade.]",
+      },
+      {
+        title: "Estratégia",
+        text: "[Explique como você pensa roteiro, gancho e chamada para ação de cada conteúdo.]",
+      },
+    ],
+    setupTitle: "Setup de gravação",
+    badges: ["[Câmera]", "[Microfone]", "[Iluminação]", "[Acessório]", "[Estúdio]"],
+    photoPlaceholder: "[Foto do estúdio]",
+  },
+
+  influencer: {
+    eyebrow: "Como influenciadora",
+    title: "[Título sobre seu perfil como influenciadora]",
+    intro: "[Resumo do seu perfil: sobre o que você fala e quem te acompanha.]",
+    topicsTitle: "Sobre o que eu falo",
+    topics: ["[Tópico 1]", "[Tópico 2]", "[Tópico 3]", "[Tópico 4]"],
+    metricsTitle: "Métricas",
+    metrics: {
+      views: "Visualizações (30 dias)",
+      followers: "Seguidores",
+      gender: "Gênero do público",
+      age: "Faixa etária",
+      location: "Localização",
+    },
+    updatedAt: "[Atualizado em mês/ano]",
+  },
+
+  ugc: {
+    eyebrow: "Como UGC Creator",
+    title: "[Título sobre seu trabalho como UGC Creator]",
+    intro: "[Explique o que é UGC no seu trabalho e para quais marcas você produz.]",
+    formats: [
+      { title: "Tutoriais", text: "[Como você apresenta o produto passo a passo.]" },
+      { title: "Storytelling", text: "[Como você cria uma história em torno do produto.]" },
+      { title: "Reviews", text: "[Como você avalia o produto com honestidade.]" },
+      { title: "Unboxing", text: "[Como você mostra a primeira impressão do produto.]" },
+      { title: "Antes e depois", text: "[Como você mostra o resultado do produto.]" },
+      { title: "Depoimentos", text: "[Como você grava depoimentos para anúncios.]" },
+    ],
+  },
+
+  work: {
+    eyebrow: "Formas de trabalhar comigo",
+    title: "[Título da seção de serviços]",
+    intro: "[Breve introdução sobre os formatos de parceria.]",
+    cta: "Quero este",
+    prev: "Anterior",
+    next: "Próximo",
+    services: [
+      {
+        title: "[Serviço 1: ex. Vídeo UGC]",
+        description: "[Descreva o que está incluso neste serviço.]",
+        message: "Olá, Fabiana! Tenho interesse no serviço [Serviço 1]. Pode me enviar mais detalhes?",
+      },
+      {
+        title: "[Serviço 2: ex. Publi no Instagram]",
+        description: "[Descreva o que está incluso neste serviço.]",
+        message: "Olá, Fabiana! Tenho interesse no serviço [Serviço 2]. Pode me enviar mais detalhes?",
+      },
+      {
+        title: "[Serviço 3: ex. Publi no TikTok]",
+        description: "[Descreva o que está incluso neste serviço.]",
+        message: "Olá, Fabiana! Tenho interesse no serviço [Serviço 3]. Pode me enviar mais detalhes?",
+      },
+      {
+        title: "[Serviço 4: ex. Pacote mensal]",
+        description: "[Descreva o que está incluso neste serviço.]",
+        message: "Olá, Fabiana! Tenho interesse no serviço [Serviço 4]. Pode me enviar mais detalhes?",
+      },
+      {
+        title: "[Serviço 5: ex. Fotos de produto]",
+        description: "[Descreva o que está incluso neste serviço.]",
+        message: "Olá, Fabiana! Tenho interesse no serviço [Serviço 5]. Pode me enviar mais detalhes?",
+      },
+    ],
+  },
+
+  portfolio: {
+    eyebrow: "Portfólio",
+    title: "[Título da seção de portfólio]",
+    intro: "[Breve introdução: que tipo de conteúdo a marca vai encontrar aqui.]",
+    categoryLabel: "Categoria",
+    nicheLabel: "Tema",
+    categories: {
+      all: "Todos",
+      influencer: "Influenciadora",
+      ugc: "UGC",
+    },
+    nicheAll: "Todos os temas",
+    niches: {
+      lifestyle: "[Lifestyle]",
+      beauty: "[Beleza]",
+      fashion: "[Moda]",
+      travel: "[Viagem]",
+      tutorial: "[Tutorial]",
+      review: "[Review]",
+      unboxing: "[Unboxing]",
+      storytelling: "[Storytelling]",
+    },
+    sampleNotice: "Vídeos de exemplo. Os vídeos reais aparecem aqui assim que forem cadastrados.",
+    sampleTitle: "Vídeo de exemplo",
+    play: "Assistir vídeo",
+    empty: "Nenhum vídeo neste filtro ainda.",
+  },
+
+  photos: {
+    eyebrow: "Fotos",
+    title: "[Bastidores e entregas]",
+  },
+
+  feedbacks: {
+    eyebrow: "Feedbacks",
+    title: "[O que as marcas dizem]",
+    prev: "Anterior",
+    next: "Próximo",
+    testimonials: [
+      { quote: "[Depoimento de uma marca parceira.]", author: "[Nome]", brand: "[Marca]" },
+      { quote: "[Depoimento de uma marca parceira.]", author: "[Nome]", brand: "[Marca]" },
+      { quote: "[Depoimento de uma marca parceira.]", author: "[Nome]", brand: "[Marca]" },
+    ],
+    printsTitle: "Prints de resultado",
+    printPlaceholder: "[Print de resultado]",
+  },
+
+  faq: {
+    eyebrow: "Perguntas frequentes",
+    title: "[Dúvidas comuns]",
+    items: [
+      { q: "[Qual é o prazo de entrega?]", a: "[Resposta.]" },
+      { q: "[Os direitos de uso estão inclusos?]", a: "[Resposta.]" },
+      { q: "[Quantas revisões estão inclusas?]", a: "[Resposta.]" },
+      { q: "[Preciso enviar o produto?]", a: "[Resposta.]" },
+      { q: "[Como funciona o pagamento?]", a: "[Resposta.]" },
+    ],
+  },
+
+  whyUgc: {
+    eyebrow: "Por que investir em UGC",
+    title: "[Título sobre os benefícios do UGC]",
+    paragraph: "[Parágrafo explicando por que conteúdo gerado por creators converte mais.]",
+    reasons: ["[Motivo 1]", "[Motivo 2]", "[Motivo 3]", "[Motivo 4]"],
+  },
+
+  contact: {
+    eyebrow: "Contato",
+    title: "[Vamos criar juntos?]",
+    text: "[Convite para a marca entrar em contato. Explique o que ela recebe ao solicitar uma proposta.]",
+    button: "Solicitar proposta pelo WhatsApp",
+    socialTitle: "Redes sociais",
+    photoPlaceholder: "[Foto de contato]",
+    message:
+      "Olá, Fabiana! Vim pelo seu portfólio e gostaria de solicitar uma proposta.\n\nNome:\nMarca/Empresa:\nSite ou Instagram da marca:\nTipo de conteúdo (UGC / Publi):\nQuantidade de vídeos:\nPrazo:",
+  },
+
+  footer: {
+    rights: "Todos os direitos reservados.",
+    backToTop: "Voltar ao topo",
+  },
+
+  popup: {
+    eyebrow: "[Agenda aberta]",
+    title: "Vamos trabalhar juntas?",
+    text: "[Texto curto convidando a marca a solicitar uma proposta.]",
+    button: "Solicitar proposta",
+    close: "Fechar",
+  },
+
+  whatsappFloat: {
+    label: "Falar no WhatsApp",
+    message: "Olá, Fabiana! Vim pelo seu portfólio.",
+  },
+};
+
+export type Translations = typeof pt;
+
+const en: Translations = {
+  meta: {
+    title: "Fabiana Pizoni · UGC Creator & Influencer",
+    description:
+      "[Short description for Google and social media: who Fabiana is and what she delivers to brands.]",
+  },
+
+  banner: {
+    text: "[Now booking new partnerships for {month}]",
+    cta: "Request a proposal",
+    close: "Close notice",
+  },
+
+  nav: {
+    about: "About",
+    portfolio: "Portfolio",
+    work: "Work with me",
+    feedbacks: "Feedback",
+    contact: "Contact",
+    cta: "Request a proposal",
+    openMenu: "Open menu",
+    closeMenu: "Close menu",
+    language: "Language",
+  },
+
+  hero: {
+    availability: "[Available for new partnerships]",
+    greeting: "Hi, I'm",
+    name: "Fabiana Pizoni",
+    role: "UGC Creator & Influencer",
+    tagline: "[Your tagline: in one sentence, what you deliver to brands and why it works.]",
+    stats: {
+      brands: "brands served",
+      followers: "followers",
+    },
+    ctaPrimary: "Request a proposal",
+    ctaSecondary: "View portfolio",
+    photoPlaceholder: "[Cover photo]",
+  },
+
+  marquee: {
+    tags: ["[Niche 1]", "[Niche 2]", "[Niche 3]", "[Niche 4]", "[Niche 5]", "[Niche 6]"],
+  },
+
+  statement: {
+    line1: "[Impact statement: first line]",
+    line2: "[Impact statement: second line]",
+  },
+
+  brands: {
+    eyebrow: "Brands",
+    title: "[Brands that have trusted my work]",
+  },
+
+  about: {
+    eyebrow: "About me",
+    title: "[About me section title]",
+    paragraphs: [
+      "[Tell your city and background here. Use **bold** to highlight the key parts.]",
+      "[Tell how you started creating content and what sets you apart. E.g. **what brands gain** by working with you.]",
+      "[Talk about your values, your audience and the kind of partnership you're looking for.]",
+    ],
+    quote: "[Your commitment statement to partner brands.]",
+    chips: ["UGC Creator", "Influencer", "[Identity 3]", "[Identity 4]"],
+    stats: {
+      age: "years old",
+      base: "based in",
+      experience: "of experience",
+      followers: "followers",
+    },
+    photoPlaceholder: "[About me photo]",
+  },
+
+  studio: {
+    eyebrow: "Studio & technical quality",
+    title: "[Title about your production setup]",
+    items: [
+      {
+        title: "Equipment",
+        text: "[Describe your gear: camera, lighting, audio and how it ensures quality.]",
+      },
+      {
+        title: "Strategy",
+        text: "[Explain how you plan the script, hook and call to action of each piece.]",
+      },
+    ],
+    setupTitle: "Recording setup",
+    badges: ["[Camera]", "[Microphone]", "[Lighting]", "[Accessory]", "[Studio]"],
+    photoPlaceholder: "[Studio photo]",
+  },
+
+  influencer: {
+    eyebrow: "As an influencer",
+    title: "[Title about your influencer profile]",
+    intro: "[Profile summary: what you talk about and who follows you.]",
+    topicsTitle: "What I talk about",
+    topics: ["[Topic 1]", "[Topic 2]", "[Topic 3]", "[Topic 4]"],
+    metricsTitle: "Metrics",
+    metrics: {
+      views: "Views (30 days)",
+      followers: "Followers",
+      gender: "Audience gender",
+      age: "Age range",
+      location: "Location",
+    },
+    updatedAt: "[Updated month/year]",
+  },
+
+  ugc: {
+    eyebrow: "As a UGC Creator",
+    title: "[Title about your UGC work]",
+    intro: "[Explain what UGC means in your work and which brands you create for.]",
+    formats: [
+      { title: "Tutorials", text: "[How you present the product step by step.]" },
+      { title: "Storytelling", text: "[How you build a story around the product.]" },
+      { title: "Reviews", text: "[How you review the product honestly.]" },
+      { title: "Unboxing", text: "[How you show your first impression of the product.]" },
+      { title: "Before & after", text: "[How you show the product's results.]" },
+      { title: "Testimonials", text: "[How you record testimonials for ads.]" },
+    ],
+  },
+
+  work: {
+    eyebrow: "Ways to work with me",
+    title: "[Services section title]",
+    intro: "[Short introduction to the partnership formats.]",
+    cta: "I want this",
+    prev: "Previous",
+    next: "Next",
+    services: [
+      {
+        title: "[Service 1: e.g. UGC video]",
+        description: "[Describe what's included in this service.]",
+        message: "Hi Fabiana! I'm interested in [Service 1]. Could you send me more details?",
+      },
+      {
+        title: "[Service 2: e.g. Instagram sponsored post]",
+        description: "[Describe what's included in this service.]",
+        message: "Hi Fabiana! I'm interested in [Service 2]. Could you send me more details?",
+      },
+      {
+        title: "[Service 3: e.g. TikTok sponsored post]",
+        description: "[Describe what's included in this service.]",
+        message: "Hi Fabiana! I'm interested in [Service 3]. Could you send me more details?",
+      },
+      {
+        title: "[Service 4: e.g. Monthly package]",
+        description: "[Describe what's included in this service.]",
+        message: "Hi Fabiana! I'm interested in [Service 4]. Could you send me more details?",
+      },
+      {
+        title: "[Service 5: e.g. Product photos]",
+        description: "[Describe what's included in this service.]",
+        message: "Hi Fabiana! I'm interested in [Service 5]. Could you send me more details?",
+      },
+    ],
+  },
+
+  portfolio: {
+    eyebrow: "Portfolio",
+    title: "[Portfolio section title]",
+    intro: "[Short introduction: what kind of content brands will find here.]",
+    categoryLabel: "Category",
+    nicheLabel: "Theme",
+    categories: {
+      all: "All",
+      influencer: "Influencer",
+      ugc: "UGC",
+    },
+    nicheAll: "All themes",
+    niches: {
+      lifestyle: "[Lifestyle]",
+      beauty: "[Beauty]",
+      fashion: "[Fashion]",
+      travel: "[Travel]",
+      tutorial: "[Tutorial]",
+      review: "[Review]",
+      unboxing: "[Unboxing]",
+      storytelling: "[Storytelling]",
+    },
+    sampleNotice: "Sample videos. Real videos will appear here once they're added.",
+    sampleTitle: "Sample video",
+    play: "Play video",
+    empty: "No videos for this filter yet.",
+  },
+
+  photos: {
+    eyebrow: "Photos",
+    title: "[Behind the scenes & deliverables]",
+  },
+
+  feedbacks: {
+    eyebrow: "Feedback",
+    title: "[What brands say]",
+    prev: "Previous",
+    next: "Next",
+    testimonials: [
+      { quote: "[Testimonial from a partner brand.]", author: "[Name]", brand: "[Brand]" },
+      { quote: "[Testimonial from a partner brand.]", author: "[Name]", brand: "[Brand]" },
+      { quote: "[Testimonial from a partner brand.]", author: "[Name]", brand: "[Brand]" },
+    ],
+    printsTitle: "Result screenshots",
+    printPlaceholder: "[Result screenshot]",
+  },
+
+  faq: {
+    eyebrow: "FAQ",
+    title: "[Common questions]",
+    items: [
+      { q: "[What's the turnaround time?]", a: "[Answer.]" },
+      { q: "[Are usage rights included?]", a: "[Answer.]" },
+      { q: "[How many revisions are included?]", a: "[Answer.]" },
+      { q: "[Do I need to ship the product?]", a: "[Answer.]" },
+      { q: "[How does payment work?]", a: "[Answer.]" },
+    ],
+  },
+
+  whyUgc: {
+    eyebrow: "Why invest in UGC",
+    title: "[Title about the benefits of UGC]",
+    paragraph: "[Paragraph explaining why creator-made content converts better.]",
+    reasons: ["[Reason 1]", "[Reason 2]", "[Reason 3]", "[Reason 4]"],
+  },
+
+  contact: {
+    eyebrow: "Contact",
+    title: "[Shall we create together?]",
+    text: "[Invite brands to get in touch. Explain what they get when requesting a proposal.]",
+    button: "Request a proposal on WhatsApp",
+    socialTitle: "Social media",
+    photoPlaceholder: "[Contact photo]",
+    message:
+      "Hi Fabiana! I found your portfolio and would like to request a proposal.\n\nName:\nBrand/Company:\nBrand website or Instagram:\nContent type (UGC / Sponsored):\nNumber of videos:\nDeadline:",
+  },
+
+  footer: {
+    rights: "All rights reserved.",
+    backToTop: "Back to top",
+  },
+
+  popup: {
+    eyebrow: "[Now booking]",
+    title: "Shall we work together?",
+    text: "[Short text inviting the brand to request a proposal.]",
+    button: "Request a proposal",
+    close: "Close",
+  },
+
+  whatsappFloat: {
+    label: "Chat on WhatsApp",
+    message: "Hi Fabiana! I found your portfolio.",
+  },
+};
+
+export const translations: Record<Lang, Translations> = { pt, en };
+
+export const DEFAULT_LANG: Lang = "pt";
+export const LANG_STORAGE_KEY = "lang";
