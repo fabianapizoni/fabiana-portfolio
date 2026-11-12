@@ -108,10 +108,11 @@ const pt = {
 
   influencer: {
     eyebrow: "Como influenciadora",
-    title: "[Título sobre seu perfil como influenciadora]",
-    intro: "[Resumo do seu perfil: sobre o que você fala e quem te acompanha.]",
+    title: "Leveza na rotina, em casa e nas viagens",
+    intro:
+      "No meu perfil, compartilho dicas para a mulher viver a rotina com mais leveza: na condução da casa, no dia a dia com as crianças e na organização do lar. Também levo vocês comigo nas viagens em família, com dicas e momentos especiais. Mostro a vida real, com praticidade, carinho e achadinhos que facilitam a rotina. Tudo de amiga para amiga.",
     topicsTitle: "Sobre o que eu falo",
-    topics: ["[Tópico 1]", "[Tópico 2]", "[Tópico 3]", "[Tópico 4]"],
+    topics: ["Rotina com as crianças", "Organização da casa", "Leveza no dia a dia", "Viagens", "Skincare & beleza", "Fé & família", "Achadinhos"],
   },
 
   ugc: {
@@ -334,10 +335,11 @@ const en: Translations = {
 
   influencer: {
     eyebrow: "As an influencer",
-    title: "[Title about your influencer profile]",
-    intro: "[Profile summary: what you talk about and who follows you.]",
+    title: "Lightness in everyday life, at home and on the road",
+    intro:
+      "On my profile, I share tips to help women live their routine with more lightness: running the home, everyday life with the kids and keeping the house organized. I also take you along on our family trips, with tips and special moments. I show real life, with practicality, warmth and great finds that make the routine easier. All from one friend to another.",
     topicsTitle: "What I talk about",
-    topics: ["[Topic 1]", "[Topic 2]", "[Topic 3]", "[Topic 4]"],
+    topics: ["Routine with kids", "Home organization", "Lightness every day", "Travel", "Skincare & beauty", "Faith & family", "Great finds"],
   },
 
   ugc: {
