@@ -40,8 +40,7 @@ const pt = {
     greeting: "Olá, eu sou",
     name: "Fabiana Pizoni",
     role: "UGC Creator & Influenciadora",
-    tagline:
-      "[Sua tagline: em uma frase, o que você entrega para as marcas e por que funciona.]",
+    tagline: "Conteúdos reais, leves e estratégicos, que mostram o seu produto no dia a dia e criam conexão com quem assiste.",
     stats: {
       brands: "marcas atendidas",
     },
@@ -267,7 +266,7 @@ const en: Translations = {
     greeting: "Hi, I'm",
     name: "Fabiana Pizoni",
     role: "UGC Creator & Influencer",
-    tagline: "[Your tagline: in one sentence, what you deliver to brands and why it works.]",
+    tagline: "Real, light and strategic content that shows your product in everyday life and connects with viewers.",
     stats: {
       brands: "brands served",
     },
