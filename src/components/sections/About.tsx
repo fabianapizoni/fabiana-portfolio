@@ -21,7 +21,7 @@ export function About() {
 
         <div>
           <SectionHeading eyebrow={t.about.eyebrow} title={t.about.title} />
-          <div className="space-y-5 text-lg leading-relaxed text-muted">
+          <div className="space-y-5 text-center text-base leading-relaxed text-muted md:text-lg">
             {t.about.paragraphs.map((p, i) => (
               <p key={i}>
                 <RichText text={p} />

@@ -1,7 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/lib/i18n/LanguageContext";
-import { heroStats, photos } from "@/lib/data/placeholders";
+import { heroStats, photos, settings } from "@/lib/data/placeholders";
 import { openWhatsApp } from "@/lib/whatsapp";
 import { Button, Photo } from "@/components/ui/primitives";
 
@@ -21,13 +21,15 @@ export function Hero() {
           <p className="mt-3 text-sm font-semibold uppercase tracking-[0.2em] text-accent">{t.hero.role}</p>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-muted">{t.hero.tagline}</p>
 
-          <dl className="mt-8 flex gap-10">
-            <div>
-              <dt className="sr-only">{t.hero.stats.brands}</dt>
-              <dd className="font-display text-4xl">{heroStats.brands}+</dd>
-              <dd className="text-sm text-muted">{t.hero.stats.brands}</dd>
-            </div>
-          </dl>
+          {settings.showBrandsCount && (
+            <dl className="mt-8 flex gap-10">
+              <div>
+                <dt className="sr-only">{t.hero.stats.brands}</dt>
+                <dd className="font-display text-4xl">{heroStats.brands}+</dd>
+                <dd className="text-sm text-muted">{t.hero.stats.brands}</dd>
+              </div>
+            </dl>
+          )}
 
           <div className="mt-10 flex flex-wrap gap-3">
             <Button onClick={() => openWhatsApp(t.contact.message)}>{t.hero.ctaPrimary}</Button>

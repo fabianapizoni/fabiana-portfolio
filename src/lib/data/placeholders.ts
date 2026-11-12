@@ -139,6 +139,8 @@ export const settings = {
   showTopBanner: true,
   /** Mostra a seção de feedbacks (depoimentos de marcas). Ligue quando tiver depoimentos. */
   showFeedbacks: false,
+  /** Mostra o número de marcas atendidas abaixo da capa. */
+  showBrandsCount: false,
   /** Atraso (ms) para o popup de proposta aparecer. */
   popupDelayMs: 1500,
 };
