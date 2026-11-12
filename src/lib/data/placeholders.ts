@@ -35,7 +35,7 @@ export const socialLinks: { network: SocialNetwork; label: string; url: string }
 // ---------------------------------------------------------------------------
 
 export const photos: Record<"hero" | "about" | "studio" | "contact", string | null> = {
-  hero: null,
+  hero: "/images/hero.jpg",
   about: null,
   studio: null,
   contact: null,
