@@ -76,12 +76,12 @@ const pt = {
     eyebrow: "Sobre mim",
     title: "Oi, sou a Fabiana!",
     paragraphs: [
-      "Tenho 41 anos, sou de Cacoal, Rondônia, e sou **advogada**. Hoje também me dedico à **criação de conteúdo UGC**: transformo experiências reais com produtos e serviços em conteúdos autênticos e criativos, que criam conexão com quem assiste.",
+      "Tenho 41 anos, sou de Cacoal, Rondônia, sou **mãe** e **advogada**. Hoje também me dedico à **criação de conteúdo UGC**: transformo experiências reais com produtos e serviços em conteúdos autênticos e criativos, que criam conexão com quem assiste.",
       "Gosto de mostrar o produto de forma natural, **inserido no dia a dia**, do jeito que ele é usado de verdade. Me identifico principalmente com **lifestyle, casa e organização, beleza e skincare, moda, família, maternidade, viagens e achadinhos**.",
       "Tenho **facilidade diante das câmeras**, comunicação natural, criatividade e senso estético. E adoro contar histórias de um jeito simples e envolvente.",
     ],
     quote: "Meu objetivo é ajudar marcas a humanizar seus produtos, despertar desejo e se conectar com o consumidor por meio de conteúdos reais, leves e estratégicos.",
-    chips: ["UGC Creator", "Influenciadora", "Advogada", "Cacoal, RO"],
+    chips: ["UGC Creator", "Influenciadora", "Mãe", "Advogada", "Cacoal, RO"],
     stats: {
       age: "anos",
       base: "Rondônia, Brasil",
@@ -302,12 +302,12 @@ const en: Translations = {
     eyebrow: "About me",
     title: "Hi, I'm Fabiana!",
     paragraphs: [
-      "I'm 41, from Cacoal, Rondônia (Brazil), and I'm a **lawyer**. Today I'm also dedicated to **UGC content creation**: I turn real experiences with products and services into authentic, creative content that connects with viewers.",
+      "I'm 41, from Cacoal, Rondônia (Brazil), a **mother** and a **lawyer**. Today I'm also dedicated to **UGC content creation**: I turn real experiences with products and services into authentic, creative content that connects with viewers.",
       "I like to show products naturally, **as part of everyday life**, the way they're really used. I relate most to **lifestyle, home and organization, beauty and skincare, fashion, family, motherhood, travel and great finds**.",
       "I'm **comfortable on camera**, with natural communication, creativity and an eye for aesthetics. And I love telling stories in a simple, engaging way.",
     ],
     quote: "My goal is to help brands humanize their products, spark desire and connect with consumers through real, light and strategic content.",
-    chips: ["UGC Creator", "Influencer", "Lawyer", "Cacoal, RO"],
+    chips: ["UGC Creator", "Influencer", "Mother", "Lawyer", "Cacoal, RO"],
     stats: {
       age: "years old",
       base: "Rondônia, Brazil",
