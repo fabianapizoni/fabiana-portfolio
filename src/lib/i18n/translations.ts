@@ -76,7 +76,7 @@ const pt = {
     eyebrow: "Sobre mim",
     title: "Oi, sou a Fabiana!",
     paragraphs: [
-      "Tenho 41 anos e sou de Cacoal, Rondônia. Sou **cristã**, **mãe**, **dona de casa** e **advogada**. Hoje também me dedico à **criação de conteúdo UGC**: transformo experiências reais com produtos e serviços em conteúdos autênticos e criativos, que criam conexão com quem assiste.",
+      "Tenho 41 anos e sou de Cacoal, Rondônia. Sou **cristã**, **casada**, **mãe**, **dona de casa** e **advogada**. Hoje também me dedico à **criação de conteúdo UGC**: transformo experiências reais com produtos e serviços em conteúdos autênticos e criativos, que criam conexão com quem assiste.",
       "Gosto de mostrar o produto de forma natural, **inserido no dia a dia**, do jeito que ele é usado de verdade. Me identifico principalmente com **lifestyle, casa e organização, beleza e skincare, moda, família, maternidade, viagens e achadinhos**.",
       "Tenho **facilidade diante das câmeras**, comunicação natural, criatividade e senso estético. E adoro contar histórias de um jeito simples e envolvente.",
     ],
@@ -302,7 +302,7 @@ const en: Translations = {
     eyebrow: "About me",
     title: "Hi, I'm Fabiana!",
     paragraphs: [
-      "I'm 41 and from Cacoal, Rondônia (Brazil). I'm a **Christian**, a **mother**, a **homemaker** and a **lawyer**. Today I'm also dedicated to **UGC content creation**: I turn real experiences with products and services into authentic, creative content that connects with viewers.",
+      "I'm 41 and from Cacoal, Rondônia (Brazil). I'm a **Christian**, **married**, a **mother**, a **homemaker** and a **lawyer**. Today I'm also dedicated to **UGC content creation**: I turn real experiences with products and services into authentic, creative content that connects with viewers.",
       "I like to show products naturally, **as part of everyday life**, the way they're really used. I relate most to **lifestyle, home and organization, beauty and skincare, fashion, family, motherhood, travel and great finds**.",
       "I'm **comfortable on camera**, with natural communication, creativity and an eye for aesthetics. And I love telling stories in a simple, engaging way.",
     ],
