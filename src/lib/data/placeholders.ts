@@ -140,6 +140,8 @@ export const settings = {
   showFeedbacks: false,
   /** Mostra o número de marcas atendidas abaixo da capa. */
   showBrandsCount: false,
+  /** Mostra a seção Estúdio & qualidade técnica. */
+  showStudio: false,
   /** Atraso (ms) para o popup de proposta aparecer. */
   popupDelayMs: 1500,
 };

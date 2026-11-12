@@ -32,7 +32,7 @@ export default function Home() {
         <Statement />
         <Brands />
         <About />
-        <Studio />
+        {settings.showStudio && <Studio />}
         <Influencer />
         <UgcCreator />
         <Portfolio />
