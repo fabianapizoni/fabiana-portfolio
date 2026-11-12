@@ -17,16 +17,15 @@
 
 export const contact = {
   /** Só números, com DDI + DDD. Ex: "5511999999999". */
-  whatsapp: "5500000000000",
-  email: "[email@exemplo.com]",
+  whatsapp: "5569993684266",
+  email: "fabianacpizoni@gmail.com",
 };
 
 export type SocialNetwork = "instagram" | "tiktok" | "youtube" | "email";
 
 export const socialLinks: { network: SocialNetwork; label: string; url: string }[] = [
-  { network: "instagram", label: "[@seuinstagram]", url: "https://instagram.com/" },
-  { network: "tiktok", label: "[@seutiktok]", url: "https://tiktok.com/" },
-  { network: "youtube", label: "[YouTube]", url: "https://youtube.com/" },
+  { network: "instagram", label: "@fabianapizonii", url: "https://instagram.com/fabianapizonii" },
+  { network: "tiktok", label: "@fabianapizonii", url: "https://www.tiktok.com/@fabianapizonii" },
   { network: "email", label: contact.email, url: `mailto:${contact.email}` },
 ];
 
