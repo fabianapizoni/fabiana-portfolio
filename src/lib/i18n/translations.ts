@@ -52,12 +52,13 @@ const pt = {
 
   marquee: {
     tags: [
-      "[Nicho 1]",
-      "[Nicho 2]",
-      "[Nicho 3]",
-      "[Nicho 4]",
-      "[Nicho 5]",
-      "[Nicho 6]",
+      "Lifestyle",
+      "Casa & organização",
+      "Beleza & skincare",
+      "Moda",
+      "Família & maternidade",
+      "Viagens",
+      "Achadinhos",
     ],
   },
 
@@ -73,14 +74,14 @@ const pt = {
 
   about: {
     eyebrow: "Sobre mim",
-    title: "[Título da seção Sobre mim]",
+    title: "Oi, sou a Fabiana!",
     paragraphs: [
-      "[Conte aqui sua cidade e formação. Use **negrito** para destacar os trechos mais importantes.]",
-      "[Conte como começou a criar conteúdo e o que te diferencia. Ex: **o que as marcas ganham** trabalhando com você.]",
-      "[Fale sobre seus valores, seu público e o tipo de parceria que você busca.]",
+      "Tenho 41 anos, sou de Cacoal, Rondônia, e sou **advogada**. Hoje também me dedico à **criação de conteúdo UGC**: transformo experiências reais com produtos e serviços em conteúdos autênticos e criativos, que criam conexão com quem assiste.",
+      "Gosto de mostrar o produto de forma natural, **inserido no dia a dia**, do jeito que ele é usado de verdade. Me identifico principalmente com **lifestyle, casa e organização, beleza e skincare, moda, família, maternidade, viagens e achadinhos**.",
+      "Tenho **facilidade diante das câmeras**, comunicação natural, criatividade e senso estético. E adoro contar histórias de um jeito simples e envolvente.",
     ],
-    quote: "[Sua frase de compromisso com as marcas parceiras.]",
-    chips: ["UGC Creator", "Influenciadora", "[Identidade 3]", "[Identidade 4]"],
+    quote: "Meu objetivo é ajudar marcas a humanizar seus produtos, despertar desejo e se conectar com o consumidor por meio de conteúdos reais, leves e estratégicos.",
+    chips: ["UGC Creator", "Influenciadora", "Advogada", "Cacoal, RO"],
     stats: {
       age: "anos",
       base: "Rondônia, Brasil",
@@ -276,7 +277,15 @@ const en: Translations = {
   },
 
   marquee: {
-    tags: ["[Niche 1]", "[Niche 2]", "[Niche 3]", "[Niche 4]", "[Niche 5]", "[Niche 6]"],
+    tags: [
+      "Lifestyle",
+      "Home & organization",
+      "Beauty & skincare",
+      "Fashion",
+      "Family & motherhood",
+      "Travel",
+      "Great finds",
+    ],
   },
 
   statement: {
@@ -291,14 +300,14 @@ const en: Translations = {
 
   about: {
     eyebrow: "About me",
-    title: "[About me section title]",
+    title: "Hi, I'm Fabiana!",
     paragraphs: [
-      "[Tell your city and background here. Use **bold** to highlight the key parts.]",
-      "[Tell how you started creating content and what sets you apart. E.g. **what brands gain** by working with you.]",
-      "[Talk about your values, your audience and the kind of partnership you're looking for.]",
+      "I'm 41, from Cacoal, Rondônia (Brazil), and I'm a **lawyer**. Today I'm also dedicated to **UGC content creation**: I turn real experiences with products and services into authentic, creative content that connects with viewers.",
+      "I like to show products naturally, **as part of everyday life**, the way they're really used. I relate most to **lifestyle, home and organization, beauty and skincare, fashion, family, motherhood, travel and great finds**.",
+      "I'm **comfortable on camera**, with natural communication, creativity and an eye for aesthetics. And I love telling stories in a simple, engaging way.",
     ],
-    quote: "[Your commitment statement to partner brands.]",
-    chips: ["UGC Creator", "Influencer", "[Identity 3]", "[Identity 4]"],
+    quote: "My goal is to help brands humanize their products, spark desire and connect with consumers through real, light and strategic content.",
+    chips: ["UGC Creator", "Influencer", "Lawyer", "Cacoal, RO"],
     stats: {
       age: "years old",
       base: "Rondônia, Brazil",
