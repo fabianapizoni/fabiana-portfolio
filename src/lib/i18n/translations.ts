@@ -184,7 +184,7 @@ const pt = {
     eyebrow: "Perguntas frequentes",
     title: "[Dúvidas comuns]",
     items: [
-      { q: "[Qual é o prazo de entrega?]", a: "[Resposta.]" },
+      { q: "Qual é o prazo de entrega?", a: "Os vídeos são entregues em até 7 dias após a aprovação do briefing." },
       { q: "[Os direitos de uso estão inclusos?]", a: "[Resposta.]" },
       { q: "[Quantas revisões estão inclusas?]", a: "[Resposta.]" },
       { q: "[Preciso enviar o produto?]", a: "[Resposta.]" },
@@ -410,7 +410,7 @@ const en: Translations = {
     eyebrow: "FAQ",
     title: "[Common questions]",
     items: [
-      { q: "[What's the turnaround time?]", a: "[Answer.]" },
+      { q: "What's the turnaround time?", a: "Videos are delivered within 7 days after the brief is approved." },
       { q: "[Are usage rights included?]", a: "[Answer.]" },
       { q: "[How many revisions are included?]", a: "[Answer.]" },
       { q: "[Do I need to ship the product?]", a: "[Answer.]" },
