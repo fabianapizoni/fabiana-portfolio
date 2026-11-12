@@ -19,7 +19,7 @@ const pt = {
   },
 
   banner: {
-    text: "[Agenda aberta para novas parcerias em {mês}]",
+    text: "Agenda aberta para parcerias em dezembro",
     cta: "Solicitar proposta",
     close: "Fechar aviso",
   },
@@ -62,8 +62,8 @@ const pt = {
   },
 
   statement: {
-    line1: "[Frase de impacto: primeira linha]",
-    line2: "[Frase de impacto: segunda linha]",
+    line1: "Dica de amiga",
+    line2: "para amiga.",
   },
 
   brands: {
@@ -245,7 +245,7 @@ const en: Translations = {
   },
 
   banner: {
-    text: "[Now booking new partnerships for {month}]",
+    text: "Now booking partnerships for December",
     cta: "Request a proposal",
     close: "Close notice",
   },
@@ -288,8 +288,8 @@ const en: Translations = {
   },
 
   statement: {
-    line1: "[Impact statement: first line]",
-    line2: "[Impact statement: second line]",
+    line1: "A tip from one friend",
+    line2: "to another.",
   },
 
   brands: {
