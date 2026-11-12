@@ -11,6 +11,7 @@ import { UgcCreator } from "@/components/sections/UgcCreator";
 import { Portfolio } from "@/components/sections/Portfolio";
 import { Photos } from "@/components/sections/Photos";
 import { Feedbacks } from "@/components/sections/Feedbacks";
+import { settings } from "@/lib/data/placeholders";
 import { Faq } from "@/components/sections/Faq";
 import { WhyUgc } from "@/components/sections/WhyUgc";
 import { Contact } from "@/components/sections/Contact";
@@ -36,7 +37,7 @@ export default function Home() {
         <UgcCreator />
         <Portfolio />
         <Photos />
-        <Feedbacks />
+        {settings.showFeedbacks && <Feedbacks />}
         <Faq />
         <WhyUgc />
         <Contact />

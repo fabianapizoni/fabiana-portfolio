@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 import type { Lang } from "@/lib/i18n/translations";
 import { openWhatsApp } from "@/lib/whatsapp";
+import { settings } from "@/lib/data/placeholders";
 import { CloseIcon, MenuIcon } from "@/components/ui/icons";
 
 export function Header() {
@@ -13,7 +14,7 @@ export function Header() {
   const links = [
     { href: "#sobre", label: t.nav.about },
     { href: "#portfolio", label: t.nav.portfolio },
-    { href: "#feedbacks", label: t.nav.feedbacks },
+    ...(settings.showFeedbacks ? [{ href: "#feedbacks", label: t.nav.feedbacks }] : []),
     { href: "#contato", label: t.nav.contact },
   ];
 

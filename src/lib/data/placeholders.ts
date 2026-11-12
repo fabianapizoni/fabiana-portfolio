@@ -137,6 +137,8 @@ export const resultPrints: { src: string; alt: string }[] = [];
 export const settings = {
   /** Mostra o banner fechável no topo. */
   showTopBanner: true,
+  /** Mostra a seção de feedbacks (depoimentos de marcas). Ligue quando tiver depoimentos. */
+  showFeedbacks: false,
   /** Atraso (ms) para o popup de proposta aparecer. */
   popupDelayMs: 1500,
 };
