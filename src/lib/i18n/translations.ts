@@ -36,7 +36,7 @@ const pt = {
   },
 
   hero: {
-    availability: "[Disponível para novas parcerias]",
+    availability: "Disponível para novas parcerias",
     greeting: "Olá, eu sou",
     name: "Fabiana Pizoni",
     role: "UGC Creator & Influenciadora",
@@ -263,7 +263,7 @@ const en: Translations = {
   },
 
   hero: {
-    availability: "[Available for new partnerships]",
+    availability: "Available for new partnerships",
     greeting: "Hi, I'm",
     name: "Fabiana Pizoni",
     role: "UGC Creator & Influencer",
