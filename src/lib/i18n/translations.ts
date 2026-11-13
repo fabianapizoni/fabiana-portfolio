@@ -15,7 +15,7 @@ const pt = {
   meta: {
     title: "Fabiana Pizoni · UGC Creator & Influenciadora",
     description:
-      "[Descrição curta para Google e redes sociais: quem é a Fabiana e o que ela entrega para as marcas.]",
+      "Fabiana Pizoni · UGC Creator e influenciadora. Conteúdos reais e leves sobre rotina, casa, beleza, família e viagens.",
   },
 
   banner: {
@@ -118,14 +118,15 @@ const pt = {
   ugc: {
     eyebrow: "Como UGC Creator",
     title: "Conteúdo feito para a sua marca usar",
-    intro: "[Explique o que é UGC no seu trabalho e para quais marcas você produz.]",
+    intro:
+      "Vídeos e fotos para a sua marca usar nas redes, em anúncios e no site, mostrando o produto como uma cliente real mostraria.",
     formats: [
-      { title: "Tutoriais", text: "[Como você apresenta o produto passo a passo.]" },
-      { title: "Storytelling", text: "[Como você cria uma história em torno do produto.]" },
-      { title: "Reviews", text: "[Como você avalia o produto com honestidade.]" },
-      { title: "Unboxing", text: "[Como você mostra a primeira impressão do produto.]" },
-      { title: "Antes e depois", text: "[Como você mostra o resultado do produto.]" },
-      { title: "Depoimentos", text: "[Como você grava depoimentos para anúncios.]" },
+      { title: "Tutoriais", text: "Passo a passo de como usar o produto." },
+      { title: "Storytelling", text: "Uma história real, com o produto na rotina." },
+      { title: "Reviews", text: "Opinião sincera, de amiga para amiga." },
+      { title: "Unboxing", text: "Da embalagem ao primeiro uso." },
+      { title: "Antes e depois", text: "O resultado do produto na prática." },
+      { title: "Depoimentos", text: "Falando direto para a câmera, ideal para anúncios." },
     ],
   },
 
@@ -210,7 +211,7 @@ const pt = {
   contact: {
     eyebrow: "Contato",
     title: "Vamos criar juntas?",
-    text: "[Convite para a marca entrar em contato. Explique o que ela recebe ao solicitar uma proposta.]",
+    text: "Me conte sobre a sua marca. Respondo pelo WhatsApp com uma proposta pensada para o seu produto.",
     button: "Solicitar proposta pelo WhatsApp",
     socialTitle: "Redes sociais",
     photoPlaceholder: "[Foto de contato]",
@@ -243,7 +244,7 @@ const en: Translations = {
   meta: {
     title: "Fabiana Pizoni · UGC Creator & Influencer",
     description:
-      "[Short description for Google and social media: who Fabiana is and what she delivers to brands.]",
+      "Fabiana Pizoni · UGC Creator and influencer. Real, light content about routine, home, beauty, family and travel.",
   },
 
   banner: {
@@ -346,14 +347,15 @@ const en: Translations = {
   ugc: {
     eyebrow: "As a UGC Creator",
     title: "Content made for your brand to use",
-    intro: "[Explain what UGC means in your work and which brands you create for.]",
+    intro:
+      "Videos and photos for your brand to use on social media, in ads and on your website, showing the product the way a real customer would.",
     formats: [
-      { title: "Tutorials", text: "[How you present the product step by step.]" },
-      { title: "Storytelling", text: "[How you build a story around the product.]" },
-      { title: "Reviews", text: "[How you review the product honestly.]" },
-      { title: "Unboxing", text: "[How you show your first impression of the product.]" },
-      { title: "Before & after", text: "[How you show the product's results.]" },
-      { title: "Testimonials", text: "[How you record testimonials for ads.]" },
+      { title: "Tutorials", text: "Step by step on how to use the product." },
+      { title: "Storytelling", text: "A real story, with the product in everyday life." },
+      { title: "Reviews", text: "An honest opinion, from one friend to another." },
+      { title: "Unboxing", text: "From the packaging to the first use." },
+      { title: "Before & after", text: "The product's results in practice." },
+      { title: "Testimonials", text: "Speaking straight to camera, ideal for ads." },
     ],
   },
 
@@ -436,7 +438,7 @@ const en: Translations = {
   contact: {
     eyebrow: "Contact",
     title: "Shall we create together?",
-    text: "[Invite brands to get in touch. Explain what they get when requesting a proposal.]",
+    text: "Tell me about your brand. I'll reply on WhatsApp with a proposal made for your product.",
     button: "Request a proposal on WhatsApp",
     socialTitle: "Social media",
     photoPlaceholder: "[Contact photo]",
