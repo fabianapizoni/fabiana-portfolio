@@ -117,7 +117,7 @@ const pt = {
 
   ugc: {
     eyebrow: "Como UGC Creator",
-    title: "[Título sobre seu trabalho como UGC Creator]",
+    title: "Conteúdo feito para a sua marca usar",
     intro: "[Explique o que é UGC no seu trabalho e para quais marcas você produz.]",
     formats: [
       { title: "Tutoriais", text: "[Como você apresenta o produto passo a passo.]" },
@@ -131,7 +131,7 @@ const pt = {
 
   portfolio: {
     eyebrow: "Portfólio",
-    title: "[Título da seção de portfólio]",
+    title: "Meus trabalhos",
     intro: "[Breve introdução: que tipo de conteúdo a marca vai encontrar aqui.]",
     categoryLabel: "Categoria",
     nicheLabel: "Tema",
@@ -208,7 +208,7 @@ const pt = {
 
   contact: {
     eyebrow: "Contato",
-    title: "[Vamos criar juntos?]",
+    title: "Vamos criar juntas?",
     text: "[Convite para a marca entrar em contato. Explique o que ela recebe ao solicitar uma proposta.]",
     button: "Solicitar proposta pelo WhatsApp",
     socialTitle: "Redes sociais",
@@ -344,7 +344,7 @@ const en: Translations = {
 
   ugc: {
     eyebrow: "As a UGC Creator",
-    title: "[Title about your UGC work]",
+    title: "Content made for your brand to use",
     intro: "[Explain what UGC means in your work and which brands you create for.]",
     formats: [
       { title: "Tutorials", text: "[How you present the product step by step.]" },
@@ -358,7 +358,7 @@ const en: Translations = {
 
   portfolio: {
     eyebrow: "Portfolio",
-    title: "[Portfolio section title]",
+    title: "My work",
     intro: "[Short introduction: what kind of content brands will find here.]",
     categoryLabel: "Category",
     nicheLabel: "Theme",
@@ -434,7 +434,7 @@ const en: Translations = {
 
   contact: {
     eyebrow: "Contact",
-    title: "[Shall we create together?]",
+    title: "Shall we create together?",
     text: "[Invite brands to get in touch. Explain what they get when requesting a proposal.]",
     button: "Request a proposal on WhatsApp",
     socialTitle: "Social media",
