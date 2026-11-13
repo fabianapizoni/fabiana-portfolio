@@ -131,8 +131,9 @@ const pt = {
 
   portfolio: {
     eyebrow: "Portfólio",
-    title: "Meus trabalhos",
-    intro: "[Breve introdução: que tipo de conteúdo a marca vai encontrar aqui.]",
+    title: "Veja como eu crio",
+    intro:
+      "Vídeos feitos com produtos que fazem parte da minha rotina, para você conhecer o meu estilo antes da parceria.",
     categoryLabel: "Categoria",
     nicheLabel: "Tema",
     categories: {
@@ -358,8 +359,8 @@ const en: Translations = {
 
   portfolio: {
     eyebrow: "Portfolio",
-    title: "My work",
-    intro: "[Short introduction: what kind of content brands will find here.]",
+    title: "See how I create",
+    intro: "Videos made with products that are part of my routine, so you can get to know my style before we partner.",
     categoryLabel: "Category",
     nicheLabel: "Theme",
     categories: {
