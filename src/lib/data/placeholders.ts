@@ -94,6 +94,7 @@ export const videos: Video[] = [
     category: "ugc",
     niche: "review",
     title: { pt: "Downy · perfume para roupas", en: "Downy · laundry scent booster" },
+    thumb: "/images/videos/downy.jpg",
   },
   {
     id: "v2",
@@ -101,6 +102,7 @@ export const videos: Video[] = [
     category: "ugc",
     niche: "review",
     title: { pt: "e.l.f. · Halo Glow Liquid Filter", en: "e.l.f. · Halo Glow Liquid Filter" },
+    thumb: "/images/videos/elf-halo-glow.jpg",
   },
 ];
 
