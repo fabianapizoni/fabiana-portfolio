@@ -82,10 +82,14 @@ export type Video = {
   category: VideoCategory;
   niche: VideoNiche;
   title: { pt: string; en: string };
+  /** Capa opcional (ex: "/images/videos/x.jpg"). Sem ela, usa a capa do YouTube. */
+  thumb?: string;
 };
 
 /** Vídeos reais. Ex: { id: "v1", youtubeId: "AbCdEfGhIjK", category: "ugc", niche: "review", title: { pt: "...", en: "..." } } */
-export const videos: Video[] = [];
+export const videos: Video[] = [
+  { id: "v1", youtubeId: "AVLHlgQKuic", category: "ugc", niche: "review", title: { pt: "", en: "" } },
+];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
 export const sampleVideos: Video[] = (Object.keys(nichesByCategory) as VideoCategory[]).flatMap(

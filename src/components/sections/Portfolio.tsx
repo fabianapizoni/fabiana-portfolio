@@ -117,7 +117,36 @@ function FilterButton({
  */
 function VideoCard({ video, title, tag, playLabel }: { video: Video; title: string; tag: string; playLabel: string }) {
   const [playing, setPlaying] = useState(false);
+  const [thumbFailed, setThumbFailed] = useState(false);
   const { youtubeId } = video;
+  const thumb = video.thumb ?? (youtubeId ? `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg` : null);
+  // Na prévia (artifact) o YouTube não pode ser embutido: o card vira um link que abre o vídeo.
+  const linkMode = process.env.NEXT_PUBLIC_VIDEO_LINK_MODE === "1";
+
+  const face = (
+    <>
+      {thumb && !thumbFailed ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={thumb}
+          alt=""
+          loading="lazy"
+          onError={() => setThumbFailed(true)}
+          className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+        />
+      ) : (
+        <span className="absolute inset-0 bg-gradient-to-b from-line/60 to-surface" />
+      )}
+      <span className="absolute inset-0 grid place-items-center">
+        <span className="grid h-14 w-14 place-items-center rounded-full bg-bg/90 text-ink shadow-md transition group-hover:scale-110">
+          <PlayIcon />
+        </span>
+      </span>
+      <span className="absolute left-3 top-3 rounded-full bg-bg/90 px-2.5 py-1 text-[11px] font-medium">{tag}</span>
+    </>
+  );
+
+  const label = title ? `${playLabel}: ${title}` : playLabel;
 
   return (
     <figure>
@@ -125,42 +154,34 @@ function VideoCard({ video, title, tag, playLabel }: { video: Video; title: stri
         {playing && youtubeId ? (
           <iframe
             src={`https://www.youtube-nocookie.com/embed/${youtubeId}?autoplay=1&rel=0&modestbranding=1&playsinline=1`}
-            title={title}
+            title={title || playLabel}
             allow="autoplay; encrypted-media; picture-in-picture"
             allowFullScreen
             className="absolute inset-0 h-full w-full"
           />
+        ) : youtubeId && linkMode ? (
+          <a
+            href={`https://www.youtube.com/shorts/${youtubeId}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={label}
+            className="group absolute inset-0 block h-full w-full"
+          >
+            {face}
+          </a>
         ) : (
           <button
             type="button"
             onClick={() => youtubeId && setPlaying(true)}
             disabled={!youtubeId}
-            aria-label={`${playLabel}: ${title}`}
+            aria-label={label}
             className="group absolute inset-0 h-full w-full disabled:cursor-default"
           >
-            {youtubeId ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={`https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`}
-                alt=""
-                loading="lazy"
-                className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
-              />
-            ) : (
-              <span className="absolute inset-0 bg-gradient-to-b from-line/60 to-surface" />
-            )}
-            <span className="absolute inset-0 grid place-items-center">
-              <span className="grid h-14 w-14 place-items-center rounded-full bg-bg/90 text-ink shadow-md transition group-hover:scale-110">
-                <PlayIcon />
-              </span>
-            </span>
-            <span className="absolute left-3 top-3 rounded-full bg-bg/90 px-2.5 py-1 text-[11px] font-medium">
-              {tag}
-            </span>
+            {face}
           </button>
         )}
       </div>
-      <figcaption className="mt-2 text-sm text-muted">{title}</figcaption>
+      {title && <figcaption className="mt-2 text-sm text-muted">{title}</figcaption>}
     </figure>
   );
 }
