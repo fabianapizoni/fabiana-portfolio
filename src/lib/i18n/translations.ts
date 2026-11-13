@@ -183,13 +183,12 @@ const pt = {
 
   faq: {
     eyebrow: "Perguntas frequentes",
-    title: "[Dúvidas comuns]",
+    title: "Tire suas dúvidas",
     items: [
+      { q: "Onde a minha marca pode usar os conteúdos?", a: "Onde precisar: nas redes sociais, em anúncios pagos, no site, na loja virtual, em catálogos e em marketplaces." },
+      { q: "Por quanto tempo posso usar?", a: "Nas redes sociais da marca, o uso não tem prazo para acabar. Em anúncios pagos, o período é combinado de acordo com a campanha, normalmente alguns meses." },
+      { q: "É possível ter exclusividade?", a: "Sim. Se a sua marca quiser que eu não faça conteúdo para concorrentes do mesmo segmento, combinamos as condições e um valor à parte." },
       { q: "Qual é o prazo de entrega?", a: "Os vídeos são entregues em até 7 dias após a marca aprovar o roteiro." },
-      { q: "[Os direitos de uso estão inclusos?]", a: "[Resposta.]" },
-      { q: "[Quantas revisões estão inclusas?]", a: "[Resposta.]" },
-      { q: "[Preciso enviar o produto?]", a: "[Resposta.]" },
-      { q: "[Como funciona o pagamento?]", a: "[Resposta.]" },
     ],
   },
 
@@ -410,13 +409,12 @@ const en: Translations = {
 
   faq: {
     eyebrow: "FAQ",
-    title: "[Common questions]",
+    title: "Got questions?",
     items: [
+      { q: "Where can my brand use the content?", a: "Wherever you need: social media, paid ads, your website, online store, catalogs and marketplaces." },
+      { q: "For how long can I use it?", a: "On the brand's social media, there's no time limit. For paid ads, the period is agreed per campaign, usually a few months." },
+      { q: "Can I get exclusivity?", a: "Yes. If your brand wants me not to create content for competitors in the same segment, we agree on the terms and a separate fee." },
       { q: "What's the turnaround time?", a: "Videos are delivered within 7 days after the brand approves the script." },
-      { q: "[Are usage rights included?]", a: "[Answer.]" },
-      { q: "[How many revisions are included?]", a: "[Answer.]" },
-      { q: "[Do I need to ship the product?]", a: "[Answer.]" },
-      { q: "[How does payment work?]", a: "[Answer.]" },
     ],
   },
 
