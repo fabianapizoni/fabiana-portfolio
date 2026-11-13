@@ -88,7 +88,13 @@ export type Video = {
 
 /** Vídeos reais. Ex: { id: "v1", youtubeId: "AbCdEfGhIjK", category: "ugc", niche: "review", title: { pt: "...", en: "..." } } */
 export const videos: Video[] = [
-  { id: "v1", youtubeId: "AVLHlgQKuic", category: "ugc", niche: "review", title: { pt: "", en: "" } },
+  {
+    id: "v1",
+    youtubeId: "AVLHlgQKuic",
+    category: "ugc",
+    niche: "review",
+    title: { pt: "Downy · perfume para roupas", en: "Downy · laundry scent booster" },
+  },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
