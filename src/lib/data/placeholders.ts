@@ -37,7 +37,7 @@ export const photos: Record<"hero" | "about" | "studio" | "contact", string | nu
   hero: "/images/hero.jpg",
   about: null,
   studio: null,
-  contact: null,
+  contact: "/images/contact.jpg",
 };
 
 // ---------------------------------------------------------------------------
