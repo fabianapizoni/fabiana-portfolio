@@ -224,9 +224,9 @@ const pt = {
   },
 
   popup: {
-    eyebrow: "[Agenda aberta]",
+    eyebrow: "Agenda aberta",
     title: "Vamos trabalhar juntas?",
-    text: "[Texto curto convidando a marca a solicitar uma proposta.]",
+    text: "Conteúdo real, leve e de amiga para amiga, para a sua marca chegar mais perto de quem compra.",
     button: "Solicitar proposta",
     close: "Fechar",
   },
@@ -450,9 +450,9 @@ const en: Translations = {
   },
 
   popup: {
-    eyebrow: "[Now booking]",
+    eyebrow: "Now booking",
     title: "Shall we work together?",
-    text: "[Short text inviting the brand to request a proposal.]",
+    text: "Real, light content, from one friend to another, to bring your brand closer to the people who buy.",
     button: "Request a proposal",
     close: "Close",
   },
