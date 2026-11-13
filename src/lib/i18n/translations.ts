@@ -159,8 +159,9 @@ const pt = {
 
   photos: {
     eyebrow: "Fotos UGC",
-    title: "[Fotos usando os produtos]",
-    intro: "[Breve texto sobre suas fotos de produto para marcas.]",
+    title: "O produto na vida real",
+    intro:
+      "Fotos espontâneas, como de amiga para amiga, que mostram o seu produto no dia a dia e despertam vontade de ter.",
     placeholder: "[Foto UGC]",
     close: "Fechar foto",
     prev: "Foto anterior",
@@ -385,8 +386,8 @@ const en: Translations = {
 
   photos: {
     eyebrow: "UGC photos",
-    title: "[Photos using the products]",
-    intro: "[Short text about your product photos for brands.]",
+    title: "The product in real life",
+    intro: "Natural photos, like a tip from a friend, that show your product in everyday life and make people want it.",
     placeholder: "[UGC photo]",
     close: "Close photo",
     prev: "Previous photo",
