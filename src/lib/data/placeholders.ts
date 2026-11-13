@@ -95,6 +95,7 @@ export const videos: Video[] = [
     niche: "review",
     title: { pt: "Downy · perfume para roupas", en: "Downy · laundry scent booster" },
   },
+  { id: "v2", youtubeId: "LmRrs9zmzmw", category: "ugc", niche: "review", title: { pt: "", en: "" } },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
