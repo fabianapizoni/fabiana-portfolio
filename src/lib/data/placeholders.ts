@@ -70,7 +70,7 @@ export type VideoCategory = "influencer" | "ugc";
 
 export const nichesByCategory = {
   influencer: ["home", "tablesetting", "routine", "beauty", "skincare", "travel", "fashion"],
-  ugc: ["tutorial", "review", "unboxing", "storytelling"],
+  ugc: ["tutorial", "review", "unboxing", "storytelling", "skincare"],
 } as const satisfies Record<VideoCategory, readonly string[]>;
 
 export type VideoNiche = (typeof nichesByCategory)[VideoCategory][number];
@@ -132,7 +132,7 @@ export const videos: Video[] = [
     id: "v6",
     youtubeId: "yKNR5F9mcQc",
     category: "ugc",
-    niche: "review",
+    niche: "skincare",
     title: { pt: "Medicube · espuma de limpeza coreana", en: "Medicube · Korean cleansing foam" },
     thumb: "/images/videos/medicube.jpg",
   },
