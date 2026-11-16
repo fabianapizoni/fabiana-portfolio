@@ -104,6 +104,7 @@ export const videos: Video[] = [
     title: { pt: "e.l.f. · Halo Glow Liquid Filter", en: "e.l.f. · Halo Glow Liquid Filter" },
     thumb: "/images/videos/elf-halo-glow.jpg",
   },
+  { id: "v3", youtubeId: "cboCDqPOP88", category: "ugc", niche: "review", title: { pt: "", en: "" } },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
