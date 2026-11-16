@@ -69,7 +69,7 @@ export const brandLogos: BrandLogo[] = [];
 export type VideoCategory = "influencer" | "ugc";
 
 export const nichesByCategory = {
-  influencer: ["home", "tablesetting", "routine", "beauty", "travel", "fashion"],
+  influencer: ["home", "tablesetting", "routine", "beauty", "skincare", "travel", "fashion"],
   ugc: ["tutorial", "review", "unboxing", "storytelling"],
 } as const satisfies Record<VideoCategory, readonly string[]>;
 
