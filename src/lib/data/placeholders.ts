@@ -117,7 +117,7 @@ export const videos: Video[] = [
     youtubeId: "PrkydctlQcg",
     category: "ugc",
     niche: "review",
-    title: { pt: "Joico · condicionador K-PAK", en: "Joico · K-PAK conditioner" },
+    title: { pt: "Joico · condicionador K‑PAK", en: "Joico · K‑PAK conditioner" },
     thumb: "/images/videos/joico.jpg",
   },
 ];
