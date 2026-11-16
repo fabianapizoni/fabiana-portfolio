@@ -105,6 +105,7 @@ export const videos: Video[] = [
     thumb: "/images/videos/elf-halo-glow.jpg",
   },
   { id: "v3", youtubeId: "cboCDqPOP88", category: "ugc", niche: "review", title: { pt: "", en: "" } },
+  { id: "v4", youtubeId: "PrkydctlQcg", category: "ugc", niche: "review", title: { pt: "", en: "" } },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
