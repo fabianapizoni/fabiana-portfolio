@@ -152,6 +152,14 @@ export const videos: Video[] = [
     title: { pt: "Finisherfresh · perfume para roupas", en: "Finisherfresh · fabric scent" },
     thumb: "/images/videos/finisherfresh.jpg",
   },
+  {
+    id: "v9",
+    youtubeId: "HYLmmfpaaA0",
+    category: "influencer",
+    niche: "lifestyle",
+    title: { pt: "Mesa posta: não é sobre luxo, é sobre cuidado", en: "Table setting: it's not about luxury, it's about care" },
+    thumb: "/images/videos/mesa-posta.jpg",
+  },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
