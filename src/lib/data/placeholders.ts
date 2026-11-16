@@ -69,7 +69,7 @@ export const brandLogos: BrandLogo[] = [];
 export type VideoCategory = "influencer" | "ugc";
 
 export const nichesByCategory = {
-  influencer: ["lifestyle", "beauty", "fashion", "travel"],
+  influencer: ["home", "tablesetting", "routine", "beauty", "travel", "fashion"],
   ugc: ["tutorial", "review", "unboxing", "storytelling"],
 } as const satisfies Record<VideoCategory, readonly string[]>;
 
@@ -156,7 +156,7 @@ export const videos: Video[] = [
     id: "v9",
     youtubeId: "HYLmmfpaaA0",
     category: "influencer",
-    niche: "lifestyle",
+    niche: "tablesetting",
     title: { pt: "Mesa posta: não é sobre luxo, é sobre cuidado", en: "Table setting: it's not about luxury, it's about care" },
     thumb: "/images/videos/mesa-posta.jpg",
   },
