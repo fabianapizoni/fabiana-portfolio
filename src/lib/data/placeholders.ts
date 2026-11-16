@@ -160,6 +160,14 @@ export const videos: Video[] = [
     title: { pt: "Mesa posta: não é sobre luxo, é sobre cuidado", en: "Table setting: it's not about luxury, it's about care" },
     thumb: "/images/videos/mesa-posta.jpg",
   },
+  {
+    id: "v10",
+    youtubeId: "YC93klzxwUQ",
+    category: "ugc",
+    niche: "tutorial",
+    title: { pt: "Adeus frizz: fios alinhados em segundos", en: "Goodbye frizz: smooth hair in seconds" },
+    thumb: "/images/videos/frizz.jpg",
+  },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
