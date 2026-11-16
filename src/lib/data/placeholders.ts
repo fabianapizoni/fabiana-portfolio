@@ -130,7 +130,7 @@ export const videos: Video[] = [
   },
   {
     id: "v6",
-    youtubeId: "yKNR5F9mcQc",
+    youtubeId: "hTxAw7Xl3Rs",
     category: "ugc",
     niche: "skincare",
     title: { pt: "Medicube · espuma de limpeza coreana", en: "Medicube · Korean cleansing foam" },
