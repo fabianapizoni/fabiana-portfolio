@@ -120,6 +120,38 @@ export const videos: Video[] = [
     title: { pt: "Joico · condicionador K‑PAK", en: "Joico · K‑PAK conditioner" },
     thumb: "/images/videos/joico.jpg",
   },
+  {
+    id: "v5",
+    youtubeId: "wn2HIVKre4s",
+    category: "ugc",
+    niche: "review",
+    title: { pt: "Umbrella · protetor solar com cor", en: "Umbrella · tinted sunscreen" },
+    thumb: "/images/videos/umbrella.jpg",
+  },
+  {
+    id: "v6",
+    youtubeId: "yKNR5F9mcQc",
+    category: "ugc",
+    niche: "review",
+    title: { pt: "Medicube · espuma de limpeza coreana", en: "Medicube · Korean cleansing foam" },
+    thumb: "/images/videos/medicube.jpg",
+  },
+  {
+    id: "v7",
+    youtubeId: "-W71DOBD8yc",
+    category: "ugc",
+    niche: "review",
+    title: { pt: "Shiseido · protetor solar em bastão", en: "Shiseido · sunscreen stick" },
+    thumb: "/images/videos/shiseido.jpg",
+  },
+  {
+    id: "v8",
+    youtubeId: "yvdlZZzr6K4",
+    category: "ugc",
+    niche: "review",
+    title: { pt: "Finisherfresh · perfume para roupas", en: "Finisherfresh · fabric scent" },
+    thumb: "/images/videos/finisherfresh.jpg",
+  },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
