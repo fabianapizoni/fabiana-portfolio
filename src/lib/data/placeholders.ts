@@ -104,7 +104,14 @@ export const videos: Video[] = [
     title: { pt: "e.l.f. · Halo Glow Liquid Filter", en: "e.l.f. · Halo Glow Liquid Filter" },
     thumb: "/images/videos/elf-halo-glow.jpg",
   },
-  { id: "v3", youtubeId: "cboCDqPOP88", category: "ugc", niche: "review", title: { pt: "", en: "" } },
+  {
+    id: "v3",
+    youtubeId: "cboCDqPOP88",
+    category: "ugc",
+    niche: "review",
+    title: { pt: "Zevya · drink funcional com colágeno", en: "Zevya · functional collagen drink" },
+    thumb: "/images/videos/zevya.jpg",
+  },
   { id: "v4", youtubeId: "PrkydctlQcg", category: "ugc", niche: "review", title: { pt: "", en: "" } },
 ];
 
