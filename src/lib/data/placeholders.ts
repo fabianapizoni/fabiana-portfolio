@@ -112,7 +112,14 @@ export const videos: Video[] = [
     title: { pt: "Zevya · drink funcional com colágeno", en: "Zevya · functional collagen drink" },
     thumb: "/images/videos/zevya.jpg",
   },
-  { id: "v4", youtubeId: "PrkydctlQcg", category: "ugc", niche: "review", title: { pt: "", en: "" } },
+  {
+    id: "v4",
+    youtubeId: "PrkydctlQcg",
+    category: "ugc",
+    niche: "review",
+    title: { pt: "Joico · condicionador K-PAK", en: "Joico · K-PAK conditioner" },
+    thumb: "/images/videos/joico.jpg",
+  },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
