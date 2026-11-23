@@ -168,6 +168,14 @@ export const videos: Video[] = [
     title: { pt: "Adeus frizz: fios alinhados em segundos", en: "Goodbye frizz: smooth hair in seconds" },
     thumb: "/images/videos/frizz.jpg",
   },
+  {
+    id: "v11",
+    youtubeId: "E-Mwx4SlYho",
+    category: "ugc",
+    niche: "skincare",
+    title: { pt: "SKIN1004 · óleo de limpeza Centella", en: "SKIN1004 · Centella cleansing oil" },
+    thumb: "/images/videos/centella-oleo.jpg",
+  },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
