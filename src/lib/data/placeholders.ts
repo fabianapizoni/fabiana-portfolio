@@ -184,6 +184,14 @@ export const videos: Video[] = [
     title: { pt: "Fino · máscara capilar japonesa", en: "Fino · Japanese hair mask" },
     thumb: "/images/videos/fino-mascara.jpg",
   },
+  {
+    id: "v13",
+    youtubeId: "IGRpJ0ZrD2k",
+    category: "ugc",
+    niche: "skincare",
+    title: { pt: "Medicube · sérum de ácido hialurônico", en: "Medicube · hyaluronic acid serum" },
+    thumb: "/images/videos/medicube-serum.jpg",
+  },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
