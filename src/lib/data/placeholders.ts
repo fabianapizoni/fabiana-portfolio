@@ -70,7 +70,7 @@ export type VideoCategory = "influencer" | "ugc";
 
 export const nichesByCategory = {
   influencer: ["home", "tablesetting", "routine", "beauty", "skincare", "travel", "fashion"],
-  ugc: ["tutorial", "review", "unboxing", "storytelling", "skincare"],
+  ugc: ["tutorial", "review", "unboxing", "storytelling", "skincare", "haircare"],
 } as const satisfies Record<VideoCategory, readonly string[]>;
 
 export type VideoNiche = (typeof nichesByCategory)[VideoCategory][number];
@@ -175,6 +175,14 @@ export const videos: Video[] = [
     niche: "skincare",
     title: { pt: "SKIN1004 · óleo de limpeza Centella", en: "SKIN1004 · Centella cleansing oil" },
     thumb: "/images/videos/centella-oleo.jpg",
+  },
+  {
+    id: "v12",
+    youtubeId: "jcG__lYq1ZM",
+    category: "ugc",
+    niche: "haircare",
+    title: { pt: "Fino · máscara capilar japonesa", en: "Fino · Japanese hair mask" },
+    thumb: "/images/videos/fino-mascara.jpg",
   },
 ];
 
