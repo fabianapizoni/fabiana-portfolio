@@ -217,6 +217,8 @@ export const ugcPhotos: UgcPhoto[] = [
   { src: "/images/ugc/finisherfresh-floral-2.jpg", alt: "Facilitador de passar roupas Finisherfresh Floral", brand: "Finisherfresh" },
   { src: "/images/ugc/elf-halo-glow.jpg", alt: "Iluminador e.l.f. Halo Glow Liquid Filter", brand: "e.l.f." },
   { src: "/images/ugc/elf-blush.jpg", alt: "Blush e.l.f.", brand: "e.l.f." },
+  { src: "/images/ugc/skin1004-centella-oleo.jpg", alt: "Óleo de limpeza SKIN1004 Madagascar Centella", brand: "SKIN1004" },
+  { src: "/images/ugc/fino-mascara.jpg", alt: "Máscara capilar Fino Premium Touch", brand: "Fino" },
 ];
 
 /** Quantos quadradinhos de placeholder mostrar enquanto não houver fotos. */
