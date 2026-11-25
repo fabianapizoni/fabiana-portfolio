@@ -192,6 +192,22 @@ export const videos: Video[] = [
     title: { pt: "Medicube · sérum de ácido hialurônico", en: "Medicube · hyaluronic acid serum" },
     thumb: "/images/videos/medicube-serum.jpg",
   },
+  {
+    id: "v14",
+    youtubeId: "x6_MfWo5qos",
+    category: "ugc",
+    niche: "skincare",
+    title: { pt: "SKIN1004 · espuma de limpeza Centella", en: "SKIN1004 · Centella cleansing foam" },
+    thumb: "/images/videos/centella-espuma.jpg",
+  },
+  {
+    id: "v15",
+    youtubeId: "v5kbNerkQ4w",
+    category: "ugc",
+    niche: "haircare",
+    title: { pt: "Elizavecca · óleo capilar CER-100", en: "Elizavecca · CER-100 hair oil" },
+    thumb: "/images/videos/elizavecca-oleo.jpg",
+  },
 ];
 
 /** Vídeos de exemplo genéricos, exibidos enquanto `videos` estiver vazio. */
