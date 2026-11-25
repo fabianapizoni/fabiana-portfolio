@@ -89,6 +89,14 @@ export type Video = {
 /** Vídeos reais. Ex: { id: "v1", youtubeId: "AbCdEfGhIjK", category: "ugc", niche: "review", title: { pt: "...", en: "..." } } */
 export const videos: Video[] = [
   {
+    id: "v16",
+    youtubeId: "sUbWh5RMcOE",
+    category: "ugc",
+    niche: "haircare",
+    title: { pt: "Elizavecca · máscara capilar CER-100", en: "Elizavecca · CER-100 hair mask" },
+    thumb: "/images/videos/elizavecca-mascara.jpg",
+  },
+  {
     id: "v15",
     youtubeId: "v5kbNerkQ4w",
     category: "ugc",
