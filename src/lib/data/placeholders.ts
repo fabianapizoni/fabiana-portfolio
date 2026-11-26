@@ -94,6 +94,7 @@ export const videos: Video[] = [
     category: "ugc",
     niche: "skincare",
     title: { pt: "Celimax · sérum de retinol Retinol Shot", en: "Celimax · Retinol Shot serum" },
+    thumb: "/images/videos/celimax-retinol.jpg",
   },
   {
     id: "v16",
