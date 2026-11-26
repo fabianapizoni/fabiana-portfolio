@@ -89,6 +89,13 @@ export type Video = {
 /** Vídeos reais. Ex: { id: "v1", youtubeId: "AbCdEfGhIjK", category: "ugc", niche: "review", title: { pt: "...", en: "..." } } */
 export const videos: Video[] = [
   {
+    id: "v17",
+    youtubeId: "6_dTBDnSOLU",
+    category: "ugc",
+    niche: "skincare",
+    title: { pt: "Celimax · sérum de retinol Retinol Shot", en: "Celimax · Retinol Shot serum" },
+  },
+  {
     id: "v16",
     youtubeId: "sUbWh5RMcOE",
     category: "ugc",
